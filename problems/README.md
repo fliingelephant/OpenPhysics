@@ -5,6 +5,7 @@ Current fields:
 ```text
 EntanglementTheory/
 QuantumCommunication/
+QuantumComputation/
 QuantumFoundations/
 QuantumInformation/
 ```
