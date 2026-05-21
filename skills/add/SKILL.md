@@ -96,11 +96,33 @@ stable: `status`, `name`, `keys`, `claim`, `def`, `known`, `refs`, `ask`,
 8. Check literal scope. Avoid words such as "any", "all", "standard", "known",
    "counterexample", "construct", and "solve" unless their mathematical scope is
    pinned down by the claim or definitions.
-9. Run two independent read-only rigor reviews before accepting the entry when
+9. Check source naming. Do not write vague source phrases such as "the paper",
+   "the published paper", "the PRX paper", or "the published PRX Quantum
+   paper".
+10. Run two independent read-only rigor reviews before accepting the entry when
    the active agent policy and user authorization permit subagents. Otherwise,
    ask for authorization before accepting, or clearly mark the entry as not yet
    independently reviewed. Apply only semantic precision fixes, then review
    again if the claim or definitions changed materially.
+
+## Source Rules
+
+Use full citations in `<refs>`. A `<ref>` should identify the authors, title,
+journal or venue, volume, page or article number, year, DOI or stable URL, and
+the exact problem, theorem, section, or page used.
+
+When referring to a source in `<known>`, `<claim>`, or `<ask>`, name the source
+explicitly. Prefer this form:
+
+```xml
+Chen et al., "Five open problems in quantum information theory", PRX Quantum 3,
+010101 (2022), Problem 3, ask whether ...
+```
+
+Do not use source pronouns or narrative shortcuts such as "this work", "the
+source", "the paper", "the authors", or "the published PRX paper" unless the
+sentence also contains the full citation anchor needed to identify the source
+without reading nearby text.
 
 ## Claim Rules
 
@@ -151,8 +173,10 @@ Ask reviewers to check:
 - overclaims in `<known>`
 - XML well-formedness and Markdown clarity
 - grep-key quality
+- full citations and explicit source naming
 - literal-scope hazards such as "any", "standard", "known", and
-  "counterexample"
+  "counterexample"; vague source phrases such as "the paper" and "the
+  published paper"
 
 Use this reviewer prompt shape:
 
@@ -161,7 +185,7 @@ Use this reviewer prompt shape:
   <task>Review this OpenPhysics problem entry for mathematical rigor.</task>
   <file>problems/.../PROBLEM.md</file>
   <source>DOI, URL, local PDF, or local TeX path</source>
-  <check>claim strength, definitions, variants, disproof logic, provenance, XML parsing, grep keys, literal-scope hazards</check>
+  <check>claim strength, definitions, variants, disproof logic, provenance, full citations, explicit source naming, XML parsing, grep keys, literal-scope hazards</check>
   <out>Findings first with file/line references, then concise suggested edits. Use LaTeX notation for mathematics.</out>
 </review>
 ```
