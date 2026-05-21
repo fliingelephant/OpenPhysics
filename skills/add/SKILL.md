@@ -138,8 +138,9 @@ linear-algebra condition when possible.
 Use two independent reviewer agents when the active agent policy and user
 authorization permit subagents. Use the same effective model, reasoning,
 sandbox, approval, and tool-access settings as the main agent; do not downgrade.
-Give each reviewer only the file path and the review task. Do not tell them the
-expected answer or proposed fix.
+Give each reviewer only the file path, source path or DOI, and review task. Do
+not tell them the expected answer or proposed fix. Reviewer agents should use
+`skills/review/SKILL.md`.
 
 Ask reviewers to check:
 
@@ -159,6 +160,7 @@ Use this reviewer prompt shape:
 <review>
   <task>Review this OpenPhysics problem entry for mathematical rigor.</task>
   <file>problems/.../PROBLEM.md</file>
+  <source>DOI, URL, local PDF, or local TeX path</source>
   <check>claim strength, definitions, variants, disproof logic, provenance, XML parsing, grep keys, literal-scope hazards</check>
   <out>Findings first with file/line references, then concise suggested edits. Use LaTeX notation for mathematics.</out>
 </review>

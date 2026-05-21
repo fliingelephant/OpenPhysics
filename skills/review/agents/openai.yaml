@@ -1,0 +1,4 @@
+interface:
+  display_name: "Review Open Problem"
+  short_description: "Review OpenPhysics problem entries for mathematical rigor."
+  default_prompt: "Review an OpenPhysics PROBLEM.md entry for source faithfulness and mathematical rigor."
