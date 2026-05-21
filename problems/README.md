@@ -3,6 +3,7 @@
 Current fields:
 
 ```text
+EntanglementTheory/
 QuantumFoundations/
 QuantumInformation/
 ```
