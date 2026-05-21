@@ -1,0 +1,4 @@
+interface:
+  display_name: "Add Open Problem"
+  short_description: "Add rigorous OpenPhysics problem entries."
+  default_prompt: "Add a rigorous OpenPhysics problem entry from source references."
