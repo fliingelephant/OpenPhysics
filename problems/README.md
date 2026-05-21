@@ -3,6 +3,7 @@
 Current fields:
 
 ```text
+QuantumFoundations/
 QuantumInformation/
 ```
 
