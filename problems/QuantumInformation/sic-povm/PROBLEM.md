@@ -63,13 +63,25 @@
     Clifford-eigenvector formulation. The claim in this entry is only the weaker
     PRX infinite-sequence problem; it imposes neither all dimensions nor
     Weyl-Heisenberg covariance.
+
+    Appleby, Flammia, and Kopp, "A Constructive Approach to Zauner's Conjecture
+    via the Stark Conjectures", arXiv:2501.03970v2 (2025), give a conditional
+    construction of Weyl-Heisenberg SICs in all dimensions \(d\gt 3\), assuming
+    an order-one abelian Stark conjecture for real quadratic fields and a
+    special-value identity for the Shintani-Faddeev modular cocycle. Joka,
+    "Symmetric Informationally Complete Positive Operator Valued Measure and
+    Zauner conjecture", arXiv:2601.13475v4 (submitted 2026-01-20, revised
+    2026-03-07), is a recent preprint whose abstract claims arbitrary SIC-POVMs
+    in every finite dimension. If accepted and verified, that preprint would
+    imply the weaker infinite-sequence claim here; this entry does not mark the
+    problem solved from that preprint abstract.
   </known>
 
   <refs>
-    <ref>P. Horodecki, Ł. Rudnicki, and K. Życzkowski, Five Open Problems in Quantum Information Theory, PRX Quantum 3, 010101 (2022), Problem 1.</ref>
-    <ref>https://doi.org/10.1103/PRXQuantum.3.010101</ref>
-    <ref>https://arxiv.org/abs/2002.03233</ref>
-    <ref>https://oqp.iqoqi.oeaw.ac.at/sic-povms-and-zauners-conjecture</ref>
+    <ref>P. Horodecki, L. Rudnicki, and K. Zyczkowski, Five Open Problems in Quantum Information Theory, PRX Quantum 3, 010101 (2022), DOI: 10.1103/PRXQuantum.3.010101, arXiv:2002.03233, Problem 1, used for the infinite-sequence SIC-POVM claim.</ref>
+    <ref>Open Quantum Problems, SIC POVMs and Zauner's Conjecture, Problem 23, IQOQI Vienna, https://oqp.iqoqi.oeaw.ac.at/sic-povms-and-zauners-conjecture, used for stronger all-dimensions, Weyl-Heisenberg covariant, and Zauner Clifford-eigenvector variants.</ref>
+    <ref>M. Appleby, S. T. Flammia, and G. S. Kopp, A Constructive Approach to Zauner's Conjecture via the Stark Conjectures, arXiv:2501.03970v2 (2025), used for conditional all-dimensions progress under Stark and Shintani-Faddeev special-value conjectures.</ref>
+    <ref>S. Joka, Symmetric Informationally Complete Positive Operator Valued Measure and Zauner conjecture, arXiv:2601.13475v4 (2026), used only as a recent preprint claim of arbitrary SIC-POVM existence in every finite dimension, not as accepted solved status.</ref>
   </refs>
 
   <ask>
