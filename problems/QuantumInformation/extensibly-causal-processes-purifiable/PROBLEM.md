@@ -175,11 +175,11 @@
       \frac{\sqrt3-1}{3}(\mathbb IXX\mathbb I+
       \mathbb IYY\mathbb I+\mathbb IZZ\mathbb I)\right],
     \]
-    introduced by Feix, Araújo, and Brukner, "Quantum superposition of the
-    order of parties as a communication resource", Physical Review A 92,
-    052326 (2015). \(W_{\mathrm{opt}}\) is causal by itself but becomes
-    non-causal with entangled ancillary inputs. Araújo, Feix, Navascués, and
-    Brukner report that their purifiability test is inconclusive for
+    introduced by Feix, Araújo, and Brukner, "Causally nonseparable processes
+    admitting a causal model", New Journal of Physics 18, 083040 (2016).
+    \(W_{\mathrm{opt}}\) is causal by itself but becomes non-causal with
+    entangled ancillary inputs. Araújo, Feix, Navascués, and Brukner report
+    that their purifiability test is inconclusive for
     \(W_{\mathrm{opt}}\) and for the noisy version conjectured there to be
     unable to violate causal inequalities. The noisy \(W_{\mathrm{opt}}\)
     therefore is not a certified OQP43 counterexample unless one proves both
@@ -222,7 +222,7 @@
     <ref>O. Oreshkov and C. Giarmatzi, Causal and causally separable processes, New Journal of Physics 18, 093020 (2016), DOI: 10.1088/1367-2630/18/9/093020, arXiv:1506.05449, used for causal processes, causal polytopes, causal inequalities, causal separability, extensible causality, extensible causal separability, tripartite ECS structure, and known separations among these classes.</ref>
     <ref>C. Branciard, M. Araújo, A. Feix, F. Costa, and Č. Brukner, The simplest causal inequalities and their violation, New Journal of Physics 18, 013008 (2016), DOI: 10.1088/1367-2630/18/1/013008, arXiv:1508.01704, used for the bipartite binary causal polytope and the \(W_{\max}\) causal-inequality-violating process later tested for purifiability.</ref>
     <ref>M. Araújo, A. Feix, M. Navascués, and Č. Brukner, A purification postulate for quantum mechanics with indefinite causal order, Quantum 1, 10 (2017), DOI: 10.22331/q-2017-04-26-10, arXiv:1611.08535, used for pure processes, purifiable processes, the purifiability criteria, non-purifiability of \(W_{\mathrm{OCB}}\) and \(W_{\max}\), the inconclusive status of \(W_{\mathrm{opt}}\) and noisy \(W_{\mathrm{opt}}\), and the statement that the extensibly-causal-to-purifiable question remained open.</ref>
-    <ref>A. Feix, M. Araújo, and Č. Brukner, Quantum superposition of the order of parties as a communication resource, Physical Review A 92, 052326 (2015), DOI: 10.1103/PhysRevA.92.052326, arXiv:1508.07840, used for the \(W_{\mathrm{opt}}\) process and activation-by-entangled-ancilla context.</ref>
+    <ref>A. Feix, M. Araújo, and Č. Brukner, Causally nonseparable processes admitting a causal model, New Journal of Physics 18, 083040 (2016), DOI: 10.1088/1367-2630/18/8/083040, arXiv:1604.03391, used for the \(W_{\mathrm{opt}}\) process and activation-by-entangled-ancilla context.</ref>
     <ref>J. Wechs, A. A. Abbott, and C. Branciard, On the definition and characterisation of multipartite causal (non)separability, New Journal of Physics 21, 013027 (2019), DOI: 10.1088/1367-2630/aaf352, arXiv:1807.10557, used for later clarification of multipartite causal separability and extensible causal separability.</ref>
     <ref>W. Yokojima, M. T. Quintino, A. Soeda, and M. Murao, Consequences of preserving reversibility in quantum superchannels, Quantum 5, 441 (2021), DOI: 10.22331/q-2021-04-26-441, arXiv:2003.05682, used for the bipartite pure-superchannel characterization and the theorem that purifiable bipartite process matrices are extensibly causal.</ref>
     <ref>J. Barrett, R. Lorenz, and O. Oreshkov, Cyclic quantum causal models, Nature Communications 12, 885 (2021), DOI: 10.1038/s41467-020-20456-x, arXiv:2002.12157, used for the cyclic quantum causal model analysis and the theorem that all unitarily extendible bipartite processes are causally separable.</ref>
