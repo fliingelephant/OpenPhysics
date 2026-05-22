@@ -1,6 +1,6 @@
 ---
 name: review
-description: Review OpenPhysics problem entries for mathematical rigor, source faithfulness, XML-in-Markdown validity, and proof/disproof clarity. Use when a subagent or reviewer is asked to audit `PROBLEM.md` files, compare entries against PRX/OQP/paper sources, or provide findings before accepting an open-problem entry.
+description: Review OpenPhysics problem entries for mathematical rigor, source faithfulness, XML-in-Markdown validity, and proof/disproof clarity. Use when a subagent or reviewer is asked to audit `PROBLEM.md` files, compare entries against source papers, OQP listings, and other cited sources, or provide findings before accepting an open-problem entry.
 ---
 
 # Review
