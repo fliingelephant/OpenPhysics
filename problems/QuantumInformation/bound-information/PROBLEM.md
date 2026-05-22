@@ -54,15 +54,22 @@
     The secret-key cost, or information of formation,
     \(I_{\mathrm{form}}(X;Y|Z)\), is the infimum of rates \(R\) such that
     there are public-discussion protocols which, using a shared secret seed
-    \(J_n\) of size \(2^{m_n}\) with
+    \(J_n\) that is uniform on a set of size \(2^{m_n}\), independent of all
+    other private randomness and unknown to Eve, with
     \(\limsup_{n\to\infty}m_n/n\le R\), generate Alice and Bob outputs
     \(\widehat X^n,\widehat Y^n\) and transcript \(C_n\) with the following
     property: there is a random variable \(\widehat Z^n\) such that
     \(P_{\widehat X^n\widehat Y^n\widehat Z^n}\) converges in total variation
-    to \(P_{XYZ}^{\otimes n}\), and \(C_n\) is no more informative to Eve
-    than \(\widehat Z^n\) in the sense that, up to vanishing error, \(C_n\)
-    can be generated from \(\widehat Z^n\) by a stochastic map independent of
-    \(\widehat X^n,\widehat Y^n\). Thus the public transcript in the
+    to \(P_{XYZ}^{\otimes n}\), and there is a stochastic map
+    \(Q_{C_n|\widehat Z^n}\) such that
+    \[
+      \left\|
+        P_{\widehat X^n\widehat Y^n\widehat Z^n C_n}
+        -
+        P_{\widehat X^n\widehat Y^n\widehat Z^n}Q_{C_n|\widehat Z^n}
+      \right\|_1\to0 .
+    \]
+    Thus the public transcript in the
     formation protocol gives Eve no more useful information than the
     \(Z^n\)-system of the target source.
 
@@ -170,7 +177,7 @@
     <ref>Open Quantum Problems, Problem 47, Is there bound information?, IQOQI Vienna, https://oqp.iqoqi.oeaw.ac.at/is-there-bound-information, used for the problem statement, the secret-key rate and secret-key cost formulation, the intrinsic-information comparison, and the listed primary references.</ref>
     <ref>Open Quantum Problems, Open Quantum Problems list, https://oqp.iqoqi.oeaw.ac.at/open-quantum-problems, used for collection provenance: this entry is listed as Problem 47, Is there bound information?, in Quantum cryptography, dated 2023/04/20.</ref>
     <ref>U. M. Maurer, Secret key agreement by public discussion from common information, IEEE Transactions on Information Theory 39(3), 733-742 (1993), DOI: 10.1109/18.256484, used for the public-discussion secret-key agreement source model.</ref>
-    <ref>U. M. Maurer and S. Wolf, Unconditionally secure key agreement and the intrinsic conditional information, IEEE Transactions on Information Theory 45(2), 499-514 (1999), DOI: 10.1109/18.749000, used for intrinsic information and its role as an upper bound on the secret-key rate.</ref>
+    <ref>U. M. Maurer and S. Wolf, Unconditionally secure key agreement and the intrinsic conditional information, IEEE Transactions on Information Theory 45(2), 499-514 (1999), DOI: 10.1109/18.748999, used for intrinsic information and its role as an upper bound on the secret-key rate.</ref>
     <ref>R. Renner and S. Wolf, New Bounds in Secret-Key Agreement: The Gap Between Formation and Secrecy Extraction, in Advances in Cryptology -- EUROCRYPT 2003, Lecture Notes in Computer Science 2656, 562-577 (2003), DOI: 10.1007/3-540-39200-9_35, https://crypto.ethz.ch/publications/files/RenWol03.pdf, used for reduced intrinsic information, the formation-cost interpretation, and the strict extraction-versus-formation gap that does not itself give zero-rate bound information.</ref>
     <ref>N. Gisin and S. Wolf, Linking Classical and Quantum Key Agreement: Is There 'Bound Information'?, in Advances in Cryptology -- CRYPTO 2000, Lecture Notes in Computer Science 1880, 482-500 (2000), DOI: 10.1007/3-540-44598-6_30, arXiv:quant-ph/0005042, used for the quantum-classical analogy and candidate distributions inspired by bound entanglement.</ref>
     <ref>M. Christandl and A. Winter, Squashed Entanglement: An Additive Entanglement Measure, Journal of Mathematical Physics 45(3), 829-840 (2004), DOI: 10.1063/1.1643788, arXiv:quant-ph/0308088, used for the intrinsic-information analogy behind squashed entanglement.</ref>
