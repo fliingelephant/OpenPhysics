@@ -110,14 +110,23 @@
     few answers", lists subquestion C: find genuine \(n\)-party inequalities
     violated by all \(n\)-party pure entangled states. The Open Quantum
     Problems index lists Problem 32 in the Quantum foundations category, with
-    Nicolas Gisin as contact and last progress dated 2016/12/01. This entry
-    records the modern equivalence formulation of subquestion C,
-    \(GME\Rightarrow GMNL\), allowing the Bell scenario and separating
-    inequality to depend on the state. A stronger reading of OQP 32C asks for a
-    single fixed inequality, or an explicit fixed family not selected after the
-    target state is known, violated by all states in a specified pure-state
-    domain. Such a state-independent single-inequality result is stronger
-    progress, but is not part of the canonical claim in this entry.
+    Nicolas Gisin as contact and last progress dated 2016/12/01. Gisin, "Bell
+    inequalities: many questions, a few answers", in Essays in Honour of Abner
+    Shimony, Springer (2009), discusses an ordinary multipartite Bell
+    nonlocality route using bipartite projections and asks whether a single
+    inequality can replace the resulting family. Svetlichny-type and
+    nonsignalling-bipartition notions of genuine multipartite nonlocality are
+    separate from that original ordinary-nonlocality discussion.
+
+    This entry is therefore not a literal transcription of Gisin's single
+    ordinary-Bell-inequality question. It records a modern strengthening
+    motivated by OQP 32C and by later GMNL literature: whether every GME pure
+    state can generate behavior outside the nonsignalling-bipartition
+    biseparable polytope, with the Bell scenario and separating inequality
+    allowed to depend on the state. A single state-independent inequality or
+    explicit universal family for a specified domain would be stronger
+    progress on this entry and would also address the closer Gisin-style
+    reading when the relevant inequality notion matches the source question.
 
     Gisin, "Bell inequalities: many questions, a few answers",
     arXiv:quant-ph/0702021, is the source named by Open Quantum Problems for
@@ -226,7 +235,7 @@
   </known>
 
   <refs>
-    <ref>Open Quantum Problems, Bell inequalities: many questions, a few answers, Problem 32, IQOQI Vienna, https://oqp.iqoqi.oeaw.ac.at/bell-inequalities-many-questions-a-few-answers, used for subquestion C and the problem source.</ref>
+    <ref>Open Quantum Problems, Bell inequalities: many questions, a few answers, Problem 32, IQOQI Vienna, https://oqp.iqoqi.oeaw.ac.at/bell-inequalities-many-questions-a-few-answers, used for OQP32C provenance and the original genuine \(n\)-party Bell-inequality question that motivates this modern GMNL strengthening.</ref>
     <ref>Open Quantum Problems, Open Quantum Problems list, https://oqp.iqoqi.oeaw.ac.at/open-quantum-problems, used for collection provenance: this entry is derived from Problem 32, Bell inequalities: many questions, a few answers, listed in Quantum foundations.</ref>
     <ref>N. Gisin, Bell inequalities: many questions, a few answers, in Essays in Honour of Abner Shimony, Western Ontario Series in Philosophy of Science, Springer, 2009, pp. 125-140, DOI: 10.1007/978-1-4020-9107-0_9, arXiv:quant-ph/0702021, used for the original list of Bell inequality questions and subquestion C.</ref>
     <ref>S. Popescu and D. Rohrlich, Generic quantum nonlocality, Physics Letters A 166(5-6), 293-297 (1992), DOI: 10.1016/0375-9601(92)90711-T, used for the ordinary pure-state multipartite nonlocality theorem.</ref>
