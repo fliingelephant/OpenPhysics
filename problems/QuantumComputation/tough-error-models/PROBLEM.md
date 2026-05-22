@@ -143,6 +143,20 @@
     upper bounds, suggesting either tougher error models or better bounds are
     still needed.
 
+    The exact one-dimensional case is known. If
+    \(\mathcal E=\operatorname{span}\{A\}\), the condition is the existence of
+    a rank-\(k\) projection \(P\) with
+    \[
+      P A^\dagger A P=\lambda P .
+    \]
+    Choi, Kribs, and Zyczkowski, "Quantum error correcting codes from the
+    compression formalism", Reports on Mathematical Physics 58(1), 77-91
+    (2006), identify this with the higher-rank numerical range of the Hermitian
+    operator \(A^\dagger A\). Their Hermitian formula implies existence for
+    \(k\le\lceil n/2\rceil\). Taking \(A^\dagger A\) with simple spectrum gives
+    no scalar compression of rank larger than \(\lceil n/2\rceil\), hence
+    \(c(1,n)=\lceil n/2\rceil\).
+
     Later operator-system and higher-rank-numerical-range literature reformulates
     the same Knill-Laflamme compression condition as the existence of quantum
     anticliques for product spans or noncommutative graphs. This gives related
@@ -175,9 +189,10 @@
     A result giving only lower bounds, only upper bounds, only asymptotic
     bounds, only numerical evidence, only random or covariant examples, only
     channel-constrained Kraus families, only projective-measurement examples,
-    only one value of \((e,n)\), or only one regime such as fixed \(e\) and
-    \(n\to\infty\), is progress unless it implies the exact determination of
-    \(c(e,n)\) in every finite nonvacuous case. A claimed nearly tight family
+    only one previously unrecorded value of \((e,n)\), or only one regime such
+    as fixed \(e\) and \(n\to\infty\), is progress unless it implies the exact
+    determination of \(c(e,n)\) in every finite nonvacuous case. Rediscovering
+    the \(e=1\) case above is not new progress. A claimed nearly tight family
     must state and prove the approximation ratio or asymptotic error term
     relative to \(c(e,n)\).
 
