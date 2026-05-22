@@ -21,19 +21,40 @@
 
   <def>
     Let \(\mathbb Z_d=\{0,\ldots,d-1\}\), with arithmetic understood modulo
-    \(d\). Alice and Bob choose settings \(x,y\in\{1,2\}\), obtain outcomes
-    \(a,b\in\mathbb Z_d\), and define
+    \(d\). Alice and Bob choose settings \(x,y\in\{1,2\}\) and obtain outcomes
+    \(a,b\in\mathbb Z_d\). For random variables \(U,V\) with values in
+    \(\mathbb Z_d\), write
     \[
-      E_d(U-V)=\sum_{r=0}^{d-1} r\Pr[U-V=r\pmod d].
+      \Pr[U=V+t]
+      :=
+      \sum_{r\in\mathbb Z_d}\Pr[U=r+t,\ V=r],
+      \qquad t\in\mathbb Z_d .
     \]
-    The local CGLMP inequality is
+    This entry uses the standard Collins-Gisin-Linden-Massar-Popescu
+    probability convention
     \[
-      L_d(p):=
-      E_d(A_1-B_1)+E_d(B_1-A_2)+E_d(A_2-B_2)
-      +E_d(B_2-A_1-1)\ge d-1 .
+    \begin{gathered}
+      I_d(p)
+      =
+      \sum_{k=0}^{\lfloor d/2\rfloor-1}
+      \left(1-\frac{2k}{d-1}\right)
+      \Big(
+      \Pr[A_1=B_1+k]
+      +\Pr[B_1=A_2+k+1]\\
+      \quad
+      +\Pr[A_2=B_2+k]
+      +\Pr[B_2=A_1+k]
+      -\Pr[A_1=B_1-k-1]\\
+      \quad
+      -\Pr[B_1=A_2-k]
+      -\Pr[A_2=B_2-k-1]
+      -\Pr[B_2=A_1-k-1]
+      \Big).
+    \end{gathered}
     \]
-    Maximizing the CGLMP violation on a fixed state is equivalent here to
-    minimizing \(L_d(p)\) over the allowed measurements on that state.
+    The local CGLMP inequality is \(I_d(p)\le 2\). Maximizing the CGLMP
+    violation on the fixed state \(|\Phi_d\rangle\) means maximizing \(I_d(p)\)
+    over the allowed local projective measurements on that state.
 
     A rank-one projective \(d\)-outcome measurement on \(\mathbb C^d\) is an
     orthonormal basis, with outcome probabilities given by the corresponding
@@ -53,22 +74,24 @@
       \frac{1}{\sqrt d}\sum_{j=0}^{d-1}\omega^{j(a+\alpha_x)}|j\rangle,
       \qquad
       |b;y\rangle_B=
-      \frac{1}{\sqrt d}\sum_{j=0}^{d-1}\omega^{-j(b+\beta_y)}|j\rangle,
+      \frac{1}{\sqrt d}\sum_{j=0}^{d-1}\omega^{j(-b+\beta_y)}|j\rangle,
     \]
     with \(\alpha_1=0\), \(\alpha_2=1/2\), \(\beta_1=1/4\), and
     \(\beta_2=-1/4\). Equivalently, each measurement basis is obtained from the
     computational basis by a discrete Fourier transform and a diagonal phase
     unitary.
 
-    The equivalences in the claim are exactly those that do not change the
-    mathematical Bell test after conventions are renamed: changing the Schmidt
-    basis by \(U\otimes\overline U\), multiplying individual basis vectors by
-    phases, applying symmetries of the CGLMP inequality such as party, setting,
-    and outcome relabelings with the corresponding relabeling of the Bell
-    functional, and complex conjugation when it gives the same CGLMP value.
-    The claim is about optimization over measurements for the fixed state
-    \(|\Phi_d\rangle\); it does not optimize over nonmaximally entangled states,
-    higher local Hilbert-space dimensions, or general POVMs.
+    The equivalences in the claim are exactly those that preserve this fixed
+    \(I_d\) Bell functional and the fixed maximally entangled state value:
+    changing the Schmidt basis by \(U\otimes\overline U\), multiplying
+    individual basis vectors by phases, and applying automorphisms of the
+    chosen CGLMP functional such as its outcome-shift and dihedral symmetries.
+    Scenario relabelings that convert \(I_d\) into a convention-renamed Bell
+    functional are not part of the fixed-functional equivalence unless they are
+    automorphisms of the displayed \(I_d\). The claim is about optimization over
+    measurements for the fixed state \(|\Phi_d\rangle\); it does not optimize
+    over nonmaximally entangled states, higher local Hilbert-space dimensions,
+    or general POVMs.
   </def>
 
   <known>
@@ -139,16 +162,16 @@
   </refs>
 
   <ask>
-    Prove or disprove the claim. A proof must determine the global minimum of
-    \(L_d(p)\) over all rank-one projective \(d\)-outcome measurement
+    Prove or disprove the claim. A proof must determine the global maximum of
+    \(I_d(p)\) over all rank-one projective \(d\)-outcome measurement
     quadruples on the fixed state \(|\Phi_d\rangle\) for every \(d\ge 3\), show
     that the Fourier-plus-diagonal CGLMP bases attain it, and prove that every
-    other minimizer is equivalent to those bases under the stated equivalences.
+    other maximizer is equivalent to those bases under the stated equivalences.
 
     A disproof must give some \(d\ge 3\) and either a projective measurement
-    quadruple on \(|\Phi_d\rangle\) with a strictly smaller value of \(L_d\) than
+    quadruple on \(|\Phi_d\rangle\) with a strictly larger value of \(I_d\) than
     the Fourier-plus-diagonal CGLMP measurements, or an inequivalent projective
-    measurement quadruple attaining the same global minimum. The disproof must
+    measurement quadruple attaining the same global maximum. The disproof must
     include a rigorous global optimality or inequivalence proof, not only a
     numerical search. Results for nonmaximally entangled states, arbitrary-state
     quantum maxima, NPA upper bounds without uniqueness, noise-resistance
