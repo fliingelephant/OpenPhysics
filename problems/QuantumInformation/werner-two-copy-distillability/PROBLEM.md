@@ -109,6 +109,7 @@
   <refs>
     <ref>P. Horodecki, Ł. Rudnicki, and K. Życzkowski, Five Open Problems in Quantum Information Theory, PRX Quantum 3, 010101 (2022), Problem 5.</ref>
     <ref>https://doi.org/10.1103/PRXQuantum.3.010101</ref>
+    <ref>Open Quantum Problems, Open Quantum Problems list, IQOQI Vienna, https://oqp.iqoqi.oeaw.ac.at/open-quantum-problems, used for collection provenance: this entry is related to the Problem 5 listing, Two-copy distillability of Werner states, in Entanglement theory.</ref>
     <ref>R. F. Werner, Quantum states with Einstein-Podolsky-Rosen correlations admitting a hidden-variable model, Phys. Rev. A 40, 4277 (1989).</ref>
     <ref>M. Horodecki, P. Horodecki, R. Horodecki, Mixed-state entanglement and distillation: Is there a bound entanglement in Nature?, Phys. Rev. Lett. 80, 5239 (1998).</ref>
     <ref>D. P. DiVincenzo, P. W. Shor, J. A. Smolin, B. M. Terhal, A. V. Thapliyal, Evidence for bound entangled states with negative partial transpose, Phys. Rev. A 61, 062312 (2000).</ref>

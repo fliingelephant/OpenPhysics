@@ -79,6 +79,7 @@
 
   <refs>
     <ref>P. Horodecki, L. Rudnicki, and K. Zyczkowski, Five Open Problems in Quantum Information Theory, PRX Quantum 3, 010101 (2022), DOI: 10.1103/PRXQuantum.3.010101, arXiv:2002.03233, Problem 1, used for the infinite-sequence SIC-POVM claim.</ref>
+    <ref>Open Quantum Problems, Open Quantum Problems list, IQOQI Vienna, https://oqp.iqoqi.oeaw.ac.at/open-quantum-problems, used for collection provenance: this entry is related to the Problem 23 listing, SIC POVMs and Zauner's Conjecture, in Quantum communication.</ref>
     <ref>Open Quantum Problems, SIC POVMs and Zauner's Conjecture, Problem 23, IQOQI Vienna, https://oqp.iqoqi.oeaw.ac.at/sic-povms-and-zauners-conjecture, used for stronger all-dimensions, Weyl-Heisenberg covariant, and Zauner Clifford-eigenvector variants.</ref>
     <ref>M. Appleby, S. T. Flammia, and G. S. Kopp, A Constructive Approach to Zauner's Conjecture via the Stark Conjectures, arXiv:2501.03970v2 (2025), used for conditional all-dimensions progress under Stark and Shintani-Faddeev special-value conjectures.</ref>
     <ref>S. Joka, Symmetric Informationally Complete Positive Operator Valued Measure and Zauner conjecture, arXiv:2601.13475v4 (2026), used only as a recent preprint claim of arbitrary SIC-POVM existence in every finite dimension, not as accepted solved status.</ref>

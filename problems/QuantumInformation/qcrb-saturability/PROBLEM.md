@@ -77,6 +77,7 @@
   <refs>
     <ref>P. Horodecki, Ł. Rudnicki, and K. Życzkowski, Five Open Problems in Quantum Information Theory, PRX Quantum 3, 010101 (2022), Problem 3.</ref>
     <ref>https://doi.org/10.1103/PRXQuantum.3.010101</ref>
+    <ref>Open Quantum Problems, Open Quantum Problems list, IQOQI Vienna, https://oqp.iqoqi.oeaw.ac.at/open-quantum-problems, used for collection provenance: this entry is related to the Problem 3 listing, QCRB saturability, in Quantum information.</ref>
   </refs>
 
   <ask>
