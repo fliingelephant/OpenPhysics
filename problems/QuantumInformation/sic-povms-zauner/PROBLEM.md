@@ -62,16 +62,20 @@
       \{U\in U(d):U\mathcal{H}_dU^{*}=\mathcal{H}_d\}.
     \]
     Its elements act on the labels \((p,q)\in\mathbb{Z}_d^2\) modulo scalar
-    phases. In Appleby's Clifford-label notation, a Clifford class has a
-    symplectic label action and a displacement parameter. In this entry, the
-    Zauner Clifford class is the fixed zero-displacement class
-    \([F_{\mathrm Z},0]\), whose symplectic part is the OQP Problem 23 action
+    phases. In Appleby's Clifford-label notation, a Clifford class has both a
+    symplectic label action and a displacement parameter, defined using the
+    normalized Weyl displacement convention. In this entry, the Zauner Clifford
+    class is the fixed zero-displacement class \([F_{\mathrm Z},0]\): the
+    displacement parameter is zero before quotienting by scalar phases, not
+    merely unspecified. Its symplectic part is the OQP Problem 23 action
     \[
       F_{\mathrm Z}(p,q)=(q-p,-p).
     \]
     A Zauner unitary \(U_{[F_{\mathrm Z},0]}\) is any scalar-phase
     representative in \(\mathcal{C}_d\) of that single projective Clifford
-    class. In the present Weyl convention it satisfies
+    class. The following relation records the induced label action in the
+    present unnormalized Weyl convention; it is not a replacement for the
+    zero-displacement condition above:
     \[
       U_{[F_{\mathrm Z},0]}D_{p,q}U_{[F_{\mathrm Z},0]}^{*}
       \in
