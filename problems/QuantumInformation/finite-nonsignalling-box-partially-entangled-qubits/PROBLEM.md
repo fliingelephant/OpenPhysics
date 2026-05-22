@@ -59,7 +59,13 @@
       K_A^\theta(a|r,\lambda,c),\qquad
       K_B^\theta(b|s,\lambda,d),
     \]
-    such that, for every \(r,s\in S^2\) and \(a,b\in\{0,1\}\),
+    with nonnegative values and
+    \[
+      \sum_{a\in\{0,1\}}K_A^\theta(a|r,\lambda,c)=1,\qquad
+      \sum_{b\in\{0,1\}}K_B^\theta(b|s,\lambda,d)=1
+    \]
+    for every admissible argument. The simulation condition is that, for every
+    \(r,s\in S^2\) and \(a,b\in\{0,1\}\),
     \[
       \langle\psi_\theta|E_a(r)\otimes E_b(s)|\psi_\theta\rangle
       =
