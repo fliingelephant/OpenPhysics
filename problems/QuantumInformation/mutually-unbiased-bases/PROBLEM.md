@@ -107,10 +107,10 @@
   <ask>
     Give a theorem that determines \(M(d)\) exactly for every integer
     \(d\ge 2\), together with proofs of both the lower bound constructions and
-    the matching upper bounds in every dimension. The theorem may be a formula,
-    an algorithm with proof of termination and correctness for every input
-    \(d\), or a finite collection of criteria that decides the exact maximum in
-    all finite dimensions.
+    the matching upper bounds in every dimension. An answer that only asserts
+    feasibility or infeasibility for each fixed \(d\) without yielding
+    constructions, nonexistence certificates, or bound explanations is not a
+    determination of \(M(d)\).
 
     A solution restricted to one dimension, one infinite family of dimensions,
     one class of MUB constructions, one class of complex Hadamard matrices, or
@@ -120,12 +120,11 @@
     \(M(6)\lt 7\), or proving \(M(6)=3\) would be progress on the canonical
     claim, not a full solution by itself.
 
-    Because this is a complete-determination problem rather than a single
-    numerical conjecture, a claimed disproof should identify the exact proposed
-    classification, formula, algorithm, or auxiliary conjecture being refuted.
-    A counterexample to a proposed value of \(M(d)\) is a disproof of that
-    proposed solution and should be reported as gap or progress unless it also
-    leads to a complete determination of \(M(d)\) for all finite dimensions.
+    A claimed disproof should identify the exact proposed classification,
+    formula, algorithm, or auxiliary conjecture being refuted. A counterexample
+    to a proposed value of \(M(d)\) is a disproof of that proposed solution
+    and should be reported as gap or progress unless it also leads to a
+    complete determination of \(M(d)\) for all finite dimensions.
   </ask>
 
   <out>
