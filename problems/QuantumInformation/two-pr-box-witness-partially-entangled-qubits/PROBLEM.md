@@ -176,8 +176,7 @@
     explicitly leaves open whether the continuous-input ingredient can be
     replaced by finite PR-box resources or a finite-input nonlocal box.
 
-    Christensen, McCusker, Altepeter, Calkins, Gerrits, Lita, Miller,
-    Shalm, Zhang, Nam, Brunner, Lim, Gisin, and Kwiat, "Exploring the limits of
+    Christensen, Liang, Brunner, Gisin, and Kwiat, "Exploring the limits of
     quantum nonlocality with entangled photons", Physical Review X 5, 041052
     (2015), experimentally study inequalities whose bounds hold for local
     correlations supplemented by one PR box and observe violations by weakly
@@ -196,7 +195,7 @@
     <ref>O. Regev and B. Toner, Simulating quantum correlations with finite communication, SIAM Journal on Computing 39(4), 1562-1580 (2009), DOI: 10.1137/080723909, arXiv:0708.0827, used for the two-classical-bit simulation of bipartite projective-measurement correlation functions motivating Gisin's two-PR-box question.</ref>
     <ref>B. F. Toner and D. Bacon, Communication cost of simulating Bell correlations, Physical Review Letters 91, 187904 (2003), DOI: 10.1103/PhysRevLett.91.187904, arXiv:quant-ph/0304076, used for the two-bit two-qubit projective-measurement simulation motivation.</ref>
     <ref>N. Brunner, N. Gisin, S. Popescu, and V. Scarani, Simulation of partial entanglement with nonsignaling resources, Physical Review A 78, 052111 (2008), DOI: 10.1103/PhysRevA.78.052111, arXiv:0803.2359, used for the four-PR-box plus continuous-input Millionaire-box protocol and the finite-resource caveat.</ref>
-    <ref>B. G. Christensen, K. T. McCusker, J. B. Altepeter, B. Calkins, T. Gerrits, A. E. Lita, A. Miller, L. K. Shalm, Y. Zhang, S. W. Nam, N. Brunner, C. C. W. Lim, N. Gisin, and P. G. Kwiat, Exploring the limits of quantum nonlocality with entangled photons, Physical Review X 5, 041052 (2015), DOI: 10.1103/PhysRevX.5.041052, used for one-PR-box resource-inequality progress distinct from the two-PR-box target.</ref>
+    <ref>B. G. Christensen, Y.-C. Liang, N. Brunner, N. Gisin, and P. G. Kwiat, Exploring the limits of quantum nonlocality with entangled photons, Physical Review X 5, 041052 (2015), DOI: 10.1103/PhysRevX.5.041052, arXiv:1506.01649, used for one-PR-box resource-inequality progress distinct from the two-PR-box target.</ref>
   </refs>
 
   <ask>
