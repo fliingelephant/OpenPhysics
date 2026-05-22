@@ -17,8 +17,8 @@ cryptography, tomography, metrology, and resource-theoretic thermodynamics.
 Use `QuantumComputation/` for circuits, error models, proof systems,
 complexity-of-quantum-tasks, and code-like AME/QECC problems.
 
-`QI002` is intentionally omitted as a separate entry. In the published PRX
-Quantum paper, Problem 2 is the \(d=6\) mutually unbiased bases problem; this is
-covered here by `QC013`, the broader OQP Problem 13 asking for the maximal
-number of mutually unbiased bases in every finite dimension, with \(d=6\) as the
-highlighted special case.
+`QI002` is intentionally omitted as a separate entry. In Horodecki, Rudnicki,
+and Zyczkowski's 2022 source list, Problem 2 is the \(d=6\) mutually unbiased
+bases problem; this is covered here by `QC013`, the broader OQP Problem 13
+asking for the maximal number of mutually unbiased bases in every finite
+dimension, with \(d=6\) as the highlighted special case.

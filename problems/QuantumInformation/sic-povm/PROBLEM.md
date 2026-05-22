@@ -52,17 +52,18 @@
   </def>
 
   <known>
-    The PRX Quantum article states this problem as constructing SIC-POVMs in an
+    Horodecki, Rudnicki, and Zyczkowski, "Five Open Problems in Quantum
+    Information Theory", Problem 1, state this as constructing SIC-POVMs in an
     infinite sequence of dimensions \(N_1,N_2,N_3,\ldots\), using the overlap
-    relation in the claim. It recalls Zauner's 1999 conjecture in the
+    relation in the claim. They recall Zauner's 1999 conjecture in the
     Weyl-Heisenberg form: for every dimension \(N\), there should exist a
     fiducial vector whose Weyl-Heisenberg orbit gives the \(N^2\) SIC vectors.
-    As external context, Open Quantum Problems separates stronger
-    all-dimensions variants: arbitrary SIC-POVMs in every dimension,
-    group-covariant Weyl-Heisenberg SIC-POVMs in every dimension, and a Zauner
+    As external context, Open Quantum Problems separates stronger all-dimensions
+    variants: arbitrary SIC-POVMs in every dimension, group-covariant
+    Weyl-Heisenberg SIC-POVMs in every dimension, and a Zauner
     Clifford-eigenvector formulation. The claim in this entry is only the weaker
-    PRX infinite-sequence problem; it imposes neither all dimensions nor
-    Weyl-Heisenberg covariance.
+    infinite-sequence claim from Horodecki, Rudnicki, and Zyczkowski; it imposes
+    neither all dimensions nor Weyl-Heisenberg covariance.
 
     Appleby, Flammia, and Kopp, "A Constructive Approach to Zauner's Conjecture
     via the Stark Conjectures", arXiv:2501.03970v2 (2025), give a conditional

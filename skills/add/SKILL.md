@@ -97,8 +97,7 @@ stable: `status`, `name`, `keys`, `claim`, `def`, `known`, `refs`, `ask`,
    "counterexample", "construct", and "solve" unless their mathematical scope is
    pinned down by the claim or definitions.
 9. Check source naming. Do not write vague source phrases such as "the paper",
-   "the published paper", "the PRX paper", or "the published PRX Quantum
-   paper".
+   "the published paper", "the source article", or "the seed source".
 10. Run two independent read-only rigor reviews before accepting the entry when
    the active agent policy and user authorization permit subagents. Otherwise,
    ask for authorization before accepting, or clearly mark the entry as not yet
@@ -120,9 +119,9 @@ Chen et al., "Five open problems in quantum information theory", PRX Quantum 3,
 ```
 
 Do not use source pronouns or narrative shortcuts such as "this work", "the
-source", "the paper", "the authors", or "the published PRX paper" unless the
-sentence also contains the full citation anchor needed to identify the source
-without reading nearby text.
+source", "the paper", "the authors", or "the seed article" unless the sentence
+also contains the full citation anchor needed to identify the source without
+reading nearby text.
 
 ## Claim Rules
 

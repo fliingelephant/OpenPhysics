@@ -103,9 +103,9 @@
     only the strongest of these three OQP variants.
 
     This entry is distinct from QI001, "SIC-POVMs", which records the weaker
-    PRX Quantum Problem 1 claim that SICs exist in a strictly increasing
-    infinite sequence of dimensions and does not require all dimensions,
-    Weyl-Heisenberg covariance, or a Clifford eigenvector fiducial.
+    infinite-sequence claim from Horodecki, Rudnicki, and Zyczkowski's Problem 1
+    and does not require all dimensions, Weyl-Heisenberg covariance, or a
+    Clifford eigenvector fiducial.
 
     Zauner, "Quantum designs: foundations of a noncommutative design theory",
     International Journal of Quantum Information 9(1), 445-507 (2011), the
