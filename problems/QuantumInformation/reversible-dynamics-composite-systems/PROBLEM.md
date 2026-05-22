@@ -152,10 +152,12 @@
     Journal of Physics A 47, 325303 (2014), Al-Safi and Richens,
     "Reversibility and the structure of the local state space", New Journal of
     Physics 17, 123001 (2015), and Richens, Selby, and Al-Safi, "Entanglement
-    is Necessary for Emergent Classicality in All Physical Theories", Physical
-    Review Letters 119, 080503 (2017), give related restrictions
-    linking local state-space structure, nonclassicality, entanglement, and
-    reversible interactions. These boxworld
+    is an inevitable feature of any non-classical theory", arXiv:1610.00682
+    (2016), give related restrictions linking local state-space structure,
+    nonclassicality, entanglement, and reversible interactions. Richens, Selby,
+    and Al-Safi's later "Entanglement is Necessary for Emergent Classicality in
+    All Physical Theories", Physical Review Letters 119, 080503 (2017), gives
+    adjacent classical-limit context. These boxworld
     and local-state-space results are substantial evidence, but they do not
     prove the general implication in the claim for arbitrary compact convex
     local state spaces.
@@ -225,7 +227,8 @@
     <ref>D. Gross, M. Muller, R. Colbeck, and O. C. O. Dahlsten, All reversible dynamics in maximally non-local theories are trivial, Physical Review Letters 104, 080402 (2010), DOI: 10.1103/PhysRevLett.104.080402, used for the maximally nonlocal boxworld no-go result.</ref>
     <ref>S. W. Al-Safi and A. J. Short, Reversible Dynamics in Strongly Non-Local Boxworld Systems, Journal of Physics A: Mathematical and Theoretical 47, 325303 (2014), DOI: 10.1088/1751-8113/47/32/325303, used for boxworld reversible-dynamics restrictions beyond the Gross-Muller-Colbeck-Dahlsten setting.</ref>
     <ref>S. W. Al-Safi and J. Richens, Reversibility and the structure of the local state space, New Journal of Physics 17, 123001 (2015), DOI: 10.1088/1367-2630/17/12/123001, used for local-state-space restrictions from reversibility.</ref>
-    <ref>J. G. Richens, J. H. Selby, and S. W. Al-Safi, Entanglement is Necessary for Emergent Classicality in All Physical Theories, Physical Review Letters 119, 080503 (2017), DOI: 10.1103/PhysRevLett.119.080503, arXiv:1610.00682, used for links between nonclassical local structure, local transitivity or no-broadcasting assumptions, and entanglement in theories with reversible interactions.</ref>
+    <ref>J. G. Richens, J. H. Selby, and S. W. Al-Safi, Entanglement is an inevitable feature of any non-classical theory, arXiv:1610.00682 (2016), used for links between nonclassical local structure, local transitivity or no-broadcasting assumptions, and entanglement in theories with reversible interactions.</ref>
+    <ref>J. G. Richens, J. H. Selby, and S. W. Al-Safi, Entanglement is Necessary for Emergent Classicality in All Physical Theories, Physical Review Letters 119, 080503 (2017), DOI: 10.1103/PhysRevLett.119.080503, arXiv:1705.08028, used for adjacent emergent-classicality context.</ref>
     <ref>Ll. Masanes, M. P. Muller, D. Perez-Garcia, and R. Augusiak, Entanglement and the three-dimensionality of the Bloch ball, Journal of Mathematical Physics 55, 122203 (2014), DOI: 10.1063/1.4903510, used for the bipartite Euclidean-ball classification and the \(d=3\) Bloch-ball exception.</ref>
     <ref>M. Krumm and M. P. Muller, Quantum computation is the unique reversible circuit model for which bits are balls, npj Quantum Information 5, 7 (2019), DOI: 10.1038/s41534-018-0123-x, used for the finite-multipartite gbit extension of the Bloch-ball no-go result.</ref>
     <ref>L. Hardy and W. K. Wootters, Limited Holism and Real-Vector-Space Quantum Theory, Foundations of Physics 42, 454-473 (2012), DOI: 10.1007/s10701-011-9616-6, used for the real-vector-space quantum-theory background and failure of standard local tomography.</ref>
