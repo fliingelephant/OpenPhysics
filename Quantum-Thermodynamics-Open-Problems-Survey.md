@@ -149,7 +149,7 @@ Status: `RECORDED QTD024`
 **25. Fast thermalization in 2D+** — `quantum-gibbs-sampler-rapid-mixing-2d`
 Prove size-independent relaxation speed of local thermalizing dynamics for non-commuting lattice systems all the way to the phase transition (1D settled 2025; high temperature settled; slow-mixing counterexamples show the frontier is real). *Why:* nature thermalizes efficiently — and quantum computers get a licensed Gibbs-sampling primitive.
 Source claims: Kastoryano–Brandão program + arXiv:2510.08533/2510.04954/2411.04300 — opus — open-confidence: **high**.
-Status: `LEAD`
+Status: `RECORDED QTD025`
 
 **26. Strong relaxation for chains (MLSI)** — `uniform-mlsi-for-one-dimensional-gibbs-samplers`
 1D non-commuting thermalizers now have a uniform spectral gap (STOC 2026); prove the stronger uniform entropy-decay constant, giving true rapid mixing from any starting state. *Why:* the explicitly-left-open half of this year's headline spin-chain result.
