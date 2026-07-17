@@ -82,7 +82,7 @@ Status: `LEAD`
 **14. Two-bath resource engines fill the simplex?** — `two-temperature-resource-engine-universality`
 Prove that alternating contact with two finite-temperature baths eventually reaches every population distribution for dimension ≥ 3 (known for qubits, and when one bath is infinitely hot). *Why:* the minimal model of what a temperature difference alone can synthesize.
 Source claims: Wojewódka-Ściążko–Puchała–Korzekwa (Quantum 8, 1222, 2024) — opus — open-confidence: **med-high**.
-Status: `LEAD`
+Status: `REJECTED — Already resolved, in the negative, by its own cited source`
 
 ## §B Machines: clocks, batteries, engines (15–20)
 
