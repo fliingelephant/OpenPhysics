@@ -184,7 +184,7 @@ Status: `LEAD`
 **32. Average eigenstate entanglement** — `eigenstate-entanglement-universality` · *needs model-pinning*
 Prove the conjectured universal entanglement curves of energy eigenstates — the free-fermion curve for quadratic models (explicit target, both surveyors), the maximal curve for chaotic ones. *Why:* the sharpest provable fingerprint separating chaos from integrability.
 Source claims: Vidmar–Rigol (PRL 119, 220603, 2017) · Bianchi–Hackl–Kieburg–Rigol–Vidmar (PRX Quantum 3, 030201, 2022) — both models — open-confidence: **medium**.
-Status: `LEAD`
+Status: `RECORDED QTD032`
 
 **33. Floquet heating: matching bounds & bosons** — `floquet-heating-bound-tightness`
 Heating under fast periodic driving is at most exponentially slow (2015–17 theorems). Two open flanks: prove it is also at least that fast (tightness), and prove any rigorous bound for lattice bosons, where unbounded occupations break the proofs. *Why:* can prethermal matter outlive its exponential guarantee — and does the guarantee cover the platforms experiments use?
