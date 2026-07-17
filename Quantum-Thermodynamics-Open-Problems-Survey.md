@@ -199,7 +199,7 @@ Status: `RECORDED QTD034`
 **35. Diffusion is positive** — `closed-system-diffusion-positivity` · *needs model-pinning*
 For one named chaotic spin chain, prove the closed-system diffusion constant is strictly positive and finite — "there exists no proof" for any clean chain (proven in 2025 only with added noise). *Why:* no theorem yet says any clean quantum chain genuinely diffuses.
 Source claims: Žnidarič et al. (arXiv:2501.07749, 2025) — opus — open-confidence: **med-high**.
-Status: `LEAD`
+Status: `REJECTED — Cited source misattributed; arXiv:2501.07749 authored by Ampelogiannis–Doyon, not Žnidarič`
 
 **36. Thermal states hard at constant temperature** — `finite-temperature-thermal-nlts` · *complexity*
 Construct local Hamiltonians whose thermal states require deep circuits at some fixed temperature (known only for temperature shrinking with size; ground-state analogue proven 2022). *Why:* the finite-temperature quantum PCP frontier. Bucket: QuantumComputation.
