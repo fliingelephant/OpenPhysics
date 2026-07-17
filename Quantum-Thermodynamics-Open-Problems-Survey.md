@@ -164,7 +164,7 @@ Status: `RECORDED QTD027`
 **28. No phase transition ⇒ exponential clustering** — `gibbs-clustering-locality-temperature-subcritical`
 Prove that in 2D+ thermal states, correlations decay exponentially at every temperature above the actual phase transition — not just above the much higher threshold current proofs reach. *Why:* the assumption every 2024–25 rigorous paper imports; quantum analogue of a classical cornerstone.
 Source claims: Kliesch et al. (PRX 4, 031019, 2014) + Capel-line conditional results — opus — open-confidence: **high**.
-Status: `LEAD`
+Status: `RECORDED QTD028`
 
 **29. Uniform clustering under a spectral gap** — `temperature-uniform-clustering-in-gapped-chains`
 For gapped 1D chains, prove correlation decay with constants uniform in temperature — bridging the fixed-temperature theorem (1969) and the zero-temperature theorem (2006), asked in 2026. *Why:* controls the low-temperature limit where all current constants blow up.
