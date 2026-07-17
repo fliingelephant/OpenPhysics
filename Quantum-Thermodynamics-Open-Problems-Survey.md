@@ -214,7 +214,7 @@ Status: `REJECTED — Second source misattributed; PRX 11, 011047 by Kuwahara–
 **38. Gaussian fluctuations at all temperatures** — `gibbs-berry-esseen-all-temperatures` · *thin provenance*
 Prove optimal central-limit rates for extensive observables in 2D+ thermal states below the high-temperature regime. *Why:* ensemble equivalence at its sharpest — but posed as a natural next step, not a named conjecture.
 Source claims: Kuwahara–Saito line (arXiv:2605.03829, 2026) — opus — open-confidence: **med-low**.
-Status: `LEAD`
+Status: `REJECTED — Cited source misattributed; arXiv:2605.03829 authored by Cramer–Brandão–Guța–Alhambra–Scandi, not Kuwahara–Saito`
 
 ## §E Boundary of scope (39)
 
