@@ -189,7 +189,7 @@ Status: `LEAD`
 **33. Floquet heating: matching bounds & bosons** — `floquet-heating-bound-tightness`
 Heating under fast periodic driving is at most exponentially slow (2015–17 theorems). Two open flanks: prove it is also at least that fast (tightness), and prove any rigorous bound for lattice bosons, where unbounded occupations break the proofs. *Why:* can prethermal matter outlive its exponential guarantee — and does the guarantee cover the platforms experiments use?
 Source claims: Abanin–De Roeck–Ho–Huveneers (CMP 354, 809, 2017) · Ho–Mori–Abanin–Dalla Torre (Ann. Phys. 454, 169297, 2023) — both models — open-confidence: **med-high**.
-Status: `LEAD`
+Status: `RECORDED QTD033`
 
 **34. A checkable criterion for the Mpemba effect** — `triplet-obstruction-to-markovian-mpemba` · *fresh 2026*
 Prove the 2026 triplet conjecture: if no energy triplet of a detailed-balance master equation satisfies an explicit rate inequality, then no anomalous relaxation crossing (Mpemba effect) can occur. *Why:* turns a fashionable phenomenon into a verifiable criterion; proven at zero temperature.
