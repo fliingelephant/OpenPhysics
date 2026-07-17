@@ -91,7 +91,7 @@ Status: `REJECTED — Already resolved, in the negative, by its own cited source
 **15. Ultimate clock precision** — `quantum-clock-precision-dissipation-bound` · *models disagree*
 Prove any universal bound tying a ticking clock's precision to its dissipation — now that the old linear bound is refuted and exponential precision-per-entropy is constructed (2025–26). *Why:* the thermodynamic price of timekeeping; currently no ceiling is known.
 Source claims: Meier et al. (Nat. Phys. 2025; arXiv:2601.10785) — opus — open-confidence: **med-high**.
-Status: `LEAD`
+Status: `RECORDED QTD015`
 
 **16. Can precision become thermodynamically free?** — `vanishing-precision-cost-coherent-quantum-dynamics` · *models disagree*
 Prove or disprove the 2021 conjecture that the entropy-cost-per-precision of a steady current can be pushed arbitrarily close to zero using enough quantum degrees of freedom. *Why:* decides whether any quantum remnant of the classical precision-dissipation trade-off survives.
