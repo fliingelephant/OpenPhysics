@@ -62,7 +62,7 @@ Status: `LEAD`
 **10. Thermal Recall protocol conjectures** — `finite-temperature-memtp-extreme-point-convergence`
 Prove two conjectures about a concrete memory-assisted thermalization protocol: its truncated version converges to the extreme reachable states, and it never does worse than the full version. *Why:* memory as a provably sufficient substitute for non-Markovian control.
 Source claims: Czartowski–de Oliveira Junior–Korzekwa (PRX Quantum 4, 040304, 2023), Conjectures 1–2 — gpt — open-confidence: **medium**.
-Status: `LEAD`
+Status: `RECORDED QTD010`
 
 **11. Geometric limits of strict catalysis** — `catalytic-future-region-exactness`
 Prove that the known geometric outer region equals exactly the set of states reachable with a strict catalyst (inclusion proven 2024; a 2026 result certifies part of the interior). *Why:* a picture-complete map of catalytic power for populations.
