@@ -96,7 +96,7 @@ Status: `RECORDED QTD015`
 **16. Can precision become thermodynamically free?** — `vanishing-precision-cost-coherent-quantum-dynamics` · *models disagree*
 Prove or disprove the 2021 conjecture that the entropy-cost-per-precision of a steady current can be pushed arbitrarily close to zero using enough quantum degrees of freedom. *Why:* decides whether any quantum remnant of the classical precision-dissipation trade-off survives.
 Source claims: Menczel–Loisa–Brandner–Flindt (J. Phys. A 54, 314002, 2021) — opus — open-confidence: **med-high**.
-Status: `LEAD`
+Status: `RECORDED QTD016`
 
 **17. Entanglement as battery fuel — residual case** — `entanglement-depth-charging-rate-bound` · *partially resolved 2026*
 Prove the entanglement-depth requirement for fast charging in the general setting (time-dependent drives, approximate charging) — the exact time-independent case was settled in 2026. *Why:* entanglement as a necessary resource for battery speed, not just sufficient.
