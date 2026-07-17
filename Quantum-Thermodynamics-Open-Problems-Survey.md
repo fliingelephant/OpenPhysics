@@ -101,7 +101,7 @@ Status: `RECORDED QTD016`
 **17. Entanglement as battery fuel — residual case** — `entanglement-depth-charging-rate-bound` · *partially resolved 2026*
 Prove the entanglement-depth requirement for fast charging in the general setting (time-dependent drives, approximate charging) — the exact time-independent case was settled in 2026. *Why:* entanglement as a necessary resource for battery speed, not just sufficient.
 Source claims: Shi et al. (arXiv:2503.02667) · exact frontier (arXiv:2605.16935) — opus — open-confidence: **medium**.
-Status: `LEAD`
+Status: `RECORDED QTD017`
 
 **18. Star graphs charge fastest** — `star-topology-battery-minimal-overlap-conjecture` · *fresh 2026*
 Prove a clean spectral-graph inequality (checked to N = 7, proven in a special case) implying the star topology maximizes charging power of graph-structured fermionic batteries. *Why:* crisp and self-contained, but single-paper provenance so far.
