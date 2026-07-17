@@ -125,7 +125,7 @@ Status: `REJECTED — SST excludes quantum systems; Tajima–Funo 2021 already s
 **21. Perfect oscillator cooling at the Landauer price** — `landauer-limit-oscillator-perfect-cooling`
 Construct or rule out a protocol cooling a harmonic oscillator exactly to its ground state at exactly the Landauer heat cost, using finite means at every step ("remains an open question", verbatim). *Why:* is the Landauer limit reachable for infinite-dimensional systems?
 Source claims: Taranto et al. (PRX Quantum 4, 010332, 2023) — opus — open-confidence: **med-high**.
-Status: `LEAD`
+Status: `RECORDED QTD021`
 
 **22. The finite-bath Landauer constant** — `finite-bath-landauer-sharp-constant`
 Prove the sharp constant in finite-bath erasure: with an n-qubit bath the extra dissipation scales as c/n², and after a 2025 construction the answer is pinned to 2 ≤ c ≤ 2π². Close the gap. *Why:* the exact price of erasure with finite resources; both models converged here independently.
