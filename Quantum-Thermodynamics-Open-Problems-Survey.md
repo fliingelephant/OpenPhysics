@@ -57,7 +57,7 @@ Status: `RECORDED QTD008`
 **9. Which Lindblad generators are thermal?** — `markovian-thermal-generator-classification`
 Prove the conjectured classification (one inclusion proven): every Markovian generator inside the thermal-operations set arises from an energy-conserving coupling to a finite thermal bath. *Why:* the continuous-time counterpart of "what is a thermal operation".
 Source claims: vom Ende–Malvetti–Dirr–Schulte-Herbrüggen (OSID 30, 2350005, 2023), Conjecture 1 — gpt — open-confidence: **medium**.
-Status: `LEAD`
+Status: `RECORDED QTD009`
 
 **10. Thermal Recall protocol conjectures** — `finite-temperature-memtp-extreme-point-convergence`
 Prove two conjectures about a concrete memory-assisted thermalization protocol: its truncated version converges to the extreme reachable states, and it never does worse than the full version. *Why:* memory as a provably sufficient substitute for non-Markovian control.
