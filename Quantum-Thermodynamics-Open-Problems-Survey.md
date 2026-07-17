@@ -67,7 +67,7 @@ Status: `LEAD`
 **11. Geometric limits of strict catalysis** — `catalytic-future-region-exactness`
 Prove that the known geometric outer region equals exactly the set of states reachable with a strict catalyst (inclusion proven 2024; a 2026 result certifies part of the interior). *Why:* a picture-complete map of catalytic power for populations.
 Source claims: Czartowski–de Oliveira Junior (PRR 6, 033203, 2024) — gpt — open-confidence: **med-high**.
-Status: `LEAD`
+Status: `RECORDED QTD011`
 
 **12. Local thermal operations + classical communication** — `infinite-round-ltocc-equals-slto` · *fresh 2026*
 Prove two 2026 conjectures: unlimited rounds of local thermal operations with classical communication reach exactly the "semilocal" thermal class; and general (POVM) measurements stay inside it. *Why:* starts the LOCC-style distributed program for thermodynamics.
