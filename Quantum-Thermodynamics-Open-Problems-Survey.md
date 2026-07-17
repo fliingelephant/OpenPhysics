@@ -77,7 +77,7 @@ Status: `RECORDED QTD012`
 **13. Quantum dichotomies beyond commuting targets** — `noncommuting-quantum-dichotomy-achievability`
 Prove that the known optimal rates for converting one pair of states into another remain achievable when the target pair does not commute (one regime settled in 2026 with a different error metric). *Why:* the second-order rates of coherent thermodynamics.
 Source claims: Lipka-Bartosik–Chubb–Renes–Tomamichel–Korzekwa (PRX Quantum 5, 020335, 2024), Conjecture 2 — gpt — open-confidence: **med-high**.
-Status: `LEAD`
+Status: `RECORDED QTD013`
 
 **14. Two-bath resource engines fill the simplex?** — `two-temperature-resource-engine-universality`
 Prove that alternating contact with two finite-temperature baths eventually reaches every population distribution for dimension ≥ 3 (known for qubits, and when one bath is infinitely hot). *Why:* the minimal model of what a temperature difference alone can synthesize.
