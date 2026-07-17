@@ -106,7 +106,7 @@ Status: `RECORDED QTD017`
 **18. Star graphs charge fastest** — `star-topology-battery-minimal-overlap-conjecture` · *fresh 2026*
 Prove a clean spectral-graph inequality (checked to N = 7, proven in a special case) implying the star topology maximizes charging power of graph-structured fermionic batteries. *Why:* crisp and self-contained, but single-paper provenance so far.
 Source claims: Sarkis–Prośniak–Nigro–Tkatchenko (arXiv:2603.10853, 2026), Conjecture 1 — opus — entry-grade: **medium**.
-Status: `LEAD`
+Status: `RECORDED QTD018`
 
 **19. Thermal marginals of two identical systems** — `optimal-thermal-marginals-identical-systems`
 Prove that two copies of a thermal state can always be jointly rotated so each marginal is exactly thermal at any chosen hotter temperature — proven up to dimension 4, conjectured for all. *Why:* the core lemma of work-versus-correlations trade-offs.
