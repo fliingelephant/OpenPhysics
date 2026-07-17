@@ -139,7 +139,7 @@ Status: `LEAD`
 **23. Global Markov property of thermal states** — `gibbs-global-quantum-markov-property`
 Prove that in 2D+ lattices at any temperature, two far-apart regions are nearly independent given the region between them, with error only polynomial in region sizes (local case proven 2025; high temperature settled at STOC 2026 — only arbitrary temperature survives). *Why:* the headline structural question about thermal states; strongest cross-model convergence in the survey.
 Source claims: Kuwahara (PRX 15, 041010, 2025) + arXiv:2504.02208/2504.02235 — both models — open-confidence: **high**.
-Status: `LEAD`
+Status: `RECORDED QTD023`
 
 **24. Boundary Hamiltonians of thermal marginals** — `quasi-local-gibbs-marginal-hamiltonians`
 Prove that tracing out part of a high-temperature thermal state leaves a state that is itself thermal for a quasi-local effective Hamiltonian — open beyond commuting interactions. *Why:* makes "temperature is local" an operator-level statement.
