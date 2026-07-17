@@ -42,7 +42,7 @@ Status: `RECORDED QTD005`
 **6. Markovian thermal processes with coherence** — `markovian-thermal-processes-coherence-laws`
 Extend the complete memoryless-thermalization laws ("continuous thermomajorization", solved for populations in 2022) to coherent states. *Why:* memoryless dynamics is what experiments actually implement.
 Source claims: Lostaglio–Korzekwa (PRA 106, 012426, 2022) — opus — open-confidence: **med-high**.
-Status: `LEAD`
+Status: `RECORDED QTD006`
 
 **7. Cooling maps = thermal operations?** — `cooling-maps-thermal-operations-equivalence` · *status thinly tracked*
 Prove or disprove that the low-temperature "cooling maps" (closed-form transition conditions known) coincide with physical thermal operations — proven only for qubits; posed as the "main open question" in 2015. *Why:* exact transition rules in the regime where the third law lives.
