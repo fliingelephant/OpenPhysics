@@ -37,7 +37,7 @@ Status: `RECORDED QTD004`
 **5. Equal-entropy catalysis with an infinite catalyst** — `equal-entropy-infinite-catalyst` · *OQP 49 residue*
 Prove or disprove: an infinite-dimensional catalyst can exactly convert between inequivalent states of equal entropy — the leftover of the otherwise-solved catalytic entropy conjecture. *Why:* decides whether entropy is the only catalytic invariant in the infinite limit.
 Source claims: Wilming (Quantum 6, 858, 2022) · IQOQI OQP Problem 49 — gpt — open-confidence: **high**.
-Status: `LEAD`
+Status: `RECORDED QTD005`
 
 **6. Markovian thermal processes with coherence** — `markovian-thermal-processes-coherence-laws`
 Extend the complete memoryless-thermalization laws ("continuous thermomajorization", solved for populations in 2022) to coherent states. *Why:* memoryless dynamics is what experiments actually implement.
