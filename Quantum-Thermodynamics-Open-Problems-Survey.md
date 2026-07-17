@@ -174,7 +174,7 @@ Status: `REJECTED — Cited source never states this problem; likely fabricated`
 **30. Araki's theorem for bosons** — `arbitrary-temperature-clustering-for-one-dimensional-lattice-bosons`
 Prove all-temperature exponential clustering for 1D repulsive lattice bosons (proven only above a threshold temperature; the authors' stated primary open question, June 2026). *Why:* unbounded local dimensions break every spin-chain technique — and bosons are what experiments hold.
 Source claims: Tong–Kuwahara–Gong (CMP, arXiv:2411.10759) — gpt — open-confidence: **high**.
-Status: `LEAD`
+Status: `RECORDED QTD030`
 
 **31. When does thermal entanglement die?** — `thermal-entanglement-sudden-death-threshold`
 Prove the sharp temperature threshold below which thermal states are entangled (one-sided bound proven at FOCS 2024), and classify the symmetries that keep entanglement alive at all temperatures (2025–26 constructions). *Why:* the quantum/classical frontier of equilibrium matter.
