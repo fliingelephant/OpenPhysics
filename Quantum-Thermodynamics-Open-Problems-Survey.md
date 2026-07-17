@@ -111,7 +111,7 @@ Status: `RECORDED QTD018`
 **19. Thermal marginals of two identical systems** — `optimal-thermal-marginals-identical-systems`
 Prove that two copies of a thermal state can always be jointly rotated so each marginal is exactly thermal at any chosen hotter temperature — proven up to dimension 4, conjectured for all. *Why:* the core lemma of work-versus-correlations trade-offs.
 Source claims: Bakhshinezhad et al. (J. Phys. A 52, 465303, 2019) — gpt — open-confidence: **med-high**.
-Status: `LEAD`
+Status: `RECORDED QTD019`
 
 **20. Carnot efficiency at nonzero power** — `carnot-efficiency-finite-power-quantum` · *borderline*
 Prove or rule out a genuinely quantum engine (degeneracy, collective effects) that beats the classical no-go and reaches Carnot efficiency at strictly positive power. *Why:* a century-old boundary — but both surveyors flag that the engine class must be pinned before the question has a truth value.
