@@ -22,7 +22,7 @@ Status: `RECORDED QTD001`
 **2. Correlated catalysis: one free energy to rule them all** — `correlated-catalytic-thermal-operations-coherence`
 Prove or disprove: with a catalyst allowed to keep correlations, a single free energy (plus a coherence-mode compatibility condition) decides every conversion under thermal operations — Shiraishi's explicit conjecture, "left as an open problem" in PRL 2025. *Why:* would be the second law of fully quantum thermodynamics.
 Source claims: Shiraishi (PRL 134, 160402, 2025) · Shiraishi–Takagi (arXiv:2510.05642) — both models — open-confidence: **high**.
-Status: `LEAD`
+Status: `REJECTED — Already solved by the issue's own second cited source`
 
 **3. Exact catalysis, catalyst returned uncorrelated** — `strict-catalytic-thermal-operation-convertibility`
 Characterize conversions of coherent states when the catalyst must return exactly and uncorrelated — the strictest catalysis notion, listed open in the 2023/2024 reviews. *Why:* separates what correlations buy (problem 2) from what catalysis alone buys.
