@@ -52,7 +52,7 @@ Status: `RECORDED QTD007`
 **8. Elementary thermal operations: strong = weak?** — `eto-weto-quasi-uniform-equivalence`
 Prove the conjectured criterion (Hack–Mendl 2025, Conjecture 1): two-level thermal swaps with and without randomness reach the same states exactly when the Gibbs weights take at most two distinct values. *Why:* pins down when fine-grained control adds power; necessity direction proven.
 Source claims: Hack–Mendl (J. Phys. A 58, 315302, 2025) — gpt — open-confidence: **high**.
-Status: `LEAD`
+Status: `RECORDED QTD008`
 
 **9. Which Lindblad generators are thermal?** — `markovian-thermal-generator-classification`
 Prove the conjectured classification (one inclusion proven): every Markovian generator inside the thermal-operations set arises from an energy-conserving coupling to a finite thermal bath. *Why:* the continuous-time counterpart of "what is a thermal operation".
