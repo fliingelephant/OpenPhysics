@@ -47,7 +47,7 @@ Status: `RECORDED QTD006`
 **7. Cooling maps = thermal operations?** — `cooling-maps-thermal-operations-equivalence` · *status thinly tracked*
 Prove or disprove that the low-temperature "cooling maps" (closed-form transition conditions known) coincide with physical thermal operations — proven only for qubits; posed as the "main open question" in 2015. *Why:* exact transition rules in the regime where the third law lives.
 Source claims: Narasimhachar–Gour (Nat. Commun. 6, 7689, 2015) — opus — open-confidence: **medium**.
-Status: `LEAD`
+Status: `RECORDED QTD007`
 
 **8. Elementary thermal operations: strong = weak?** — `eto-weto-quasi-uniform-equivalence`
 Prove the conjectured criterion (Hack–Mendl 2025, Conjecture 1): two-level thermal swaps with and without randomness reach the same states exactly when the Gibbs weights take at most two distinct values. *Why:* pins down when fine-grained control adds power; necessity direction proven.
