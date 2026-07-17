@@ -130,7 +130,7 @@ Status: `RECORDED QTD021`
 **22. The finite-bath Landauer constant** — `finite-bath-landauer-sharp-constant`
 Prove the sharp constant in finite-bath erasure: with an n-qubit bath the extra dissipation scales as c/n², and after a 2025 construction the answer is pinned to 2 ≤ c ≤ 2π². Close the gap. *Why:* the exact price of erasure with finite resources; both models converged here independently.
 Source claims: Reeb–Wolf (NJP 16, 103011, 2014) · Lipka-Bartosik–Perarnau-Llobet (PRL 135, 170404, 2025) — both models — open-confidence: **medium**.
-Status: `LEAD`
+Status: `RECORDED QTD022`
 
 ## §D Gibbs states & thermalization (23–38)
 
