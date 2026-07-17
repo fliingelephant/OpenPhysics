@@ -169,7 +169,7 @@ Status: `LEAD`
 **29. Uniform clustering under a spectral gap** — `temperature-uniform-clustering-in-gapped-chains`
 For gapped 1D chains, prove correlation decay with constants uniform in temperature — bridging the fixed-temperature theorem (1969) and the zero-temperature theorem (2006), asked in 2026. *Why:* controls the low-temperature limit where all current constants blow up.
 Source claims: Alhambra–Capel–Gondolf–Ruiz-de-Alarcón–Scalet (Ann. Henri Poincaré 2026, arXiv:2402.18500) — gpt — open-confidence: **high**.
-Status: `LEAD`
+Status: `REJECTED — Cited source never states this problem; likely fabricated`
 
 **30. Araki's theorem for bosons** — `arbitrary-temperature-clustering-for-one-dimensional-lattice-bosons`
 Prove all-temperature exponential clustering for 1D repulsive lattice bosons (proven only above a threshold temperature; the authors' stated primary open question, June 2026). *Why:* unbounded local dimensions break every spin-chain technique — and bosons are what experiments hold.
