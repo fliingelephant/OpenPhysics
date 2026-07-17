@@ -223,7 +223,7 @@ Status: `REJECTED — Cited source misattributed; arXiv:2605.03829 authored by C
 **39. Refined BMV inequality — surviving half** — `refined-bmv-lower-bound` · *OQP 40 residue · matrix analysis*
 Prove the lower trace inequality of IQOQI Problem 40, \(\operatorname{tr}\exp(n\log A+m\log B)\le p_{n,m}(A,B)\) (its upper half was refuted in March 2026; the solved BMV conjecture is the weaker positivity statement). *Why:* OQP-listed and rooted in partition functions — but pure matrix analysis in character.
 Source claims: OQP 40 (Hägele/Werner, 2017) · Cha (arXiv:2603.19927) — gpt — open-confidence: **med-high**.
-Status: `LEAD`
+Status: `RECORDED QTD039`
 
 ---
 
