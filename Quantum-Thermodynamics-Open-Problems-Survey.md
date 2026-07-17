@@ -27,7 +27,7 @@ Status: `REJECTED — Already solved by the issue's own second cited source`
 **3. Exact catalysis, catalyst returned uncorrelated** — `strict-catalytic-thermal-operation-convertibility`
 Characterize conversions of coherent states when the catalyst must return exactly and uncorrelated — the strictest catalysis notion, listed open in the 2023/2024 reviews. *Why:* separates what correlations buy (problem 2) from what catalysis alone buys.
 Source claims: Datta–Kondra–Miller–Streltsov (Rep. Prog. Phys. 86, 116002, 2023) · Lipka-Bartosik–Wilming–Ng (RMP 96, 025005, 2024) — gpt — open-confidence: **high**.
-Status: `LEAD`
+Status: `RECORDED QTD003`
 
 **4. "All states are universal catalysts" — the broken proof** — `universal-thermal-catalysts-proof-gap`
 Prove or refute the 2021 PRX claim that many copies of any resourceful state catalyze any free-energy-allowed transition: the RMP 2024 review reports its key lemma is invalid, leaving the theorem unproven. *Why:* a published, cited "theorem" currently without a proof.
