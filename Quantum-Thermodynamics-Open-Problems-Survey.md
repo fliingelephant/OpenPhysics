@@ -72,7 +72,7 @@ Status: `RECORDED QTD011`
 **12. Local thermal operations + classical communication** — `infinite-round-ltocc-equals-slto` · *fresh 2026*
 Prove two 2026 conjectures: unlimited rounds of local thermal operations with classical communication reach exactly the "semilocal" thermal class; and general (POVM) measurements stay inside it. *Why:* starts the LOCC-style distributed program for thermodynamics.
 Source claims: Bistroń–Czartowski (PRE 113, 034114, 2026), Conjectures 1–2 — gpt — open-confidence: **high**.
-Status: `LEAD`
+Status: `RECORDED QTD012`
 
 **13. Quantum dichotomies beyond commuting targets** — `noncommuting-quantum-dichotomy-achievability`
 Prove that the known optimal rates for converting one pair of states into another remain achievable when the target pair does not commute (one regime settled in 2026 with a different error metric). *Why:* the second-order rates of coherent thermodynamics.
