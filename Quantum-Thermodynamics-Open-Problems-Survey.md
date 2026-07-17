@@ -209,7 +209,7 @@ Status: `LEAD`
 **37. Optimal thermal area law** — `thermal-area-law-optimal-scaling` · *sharpening*
 Prove the optimal temperature-dependence in thermal area laws (remove log factors; decide whether a temperature-independent bound holds away from transitions). *Why:* a sharpening of a proven result — weakest shape in this group by the credit test.
 Source claims: Wolf–Verstraete–Hastings–Cirac (PRL 100, 070502, 2008) · Kuwahara–Kato–Brandão (PRX 11, 011047, 2021) — opus — open-confidence: **medium**.
-Status: `LEAD`
+Status: `REJECTED — Second source misattributed; PRX 11, 011047 by Kuwahara–Alhambra–Anshu, not Kuwahara–Kato–Brandão`
 
 **38. Gaussian fluctuations at all temperatures** — `gibbs-berry-esseen-all-temperatures` · *thin provenance*
 Prove optimal central-limit rates for extensive observables in 2D+ thermal states below the high-temperature regime. *Why:* ensemble equivalence at its sharpest — but posed as a natural next step, not a named conjecture.
