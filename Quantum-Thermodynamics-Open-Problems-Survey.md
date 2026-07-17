@@ -116,7 +116,7 @@ Status: `LEAD`
 **20. Carnot efficiency at nonzero power** — `carnot-efficiency-finite-power-quantum` · *borderline*
 Prove or rule out a genuinely quantum engine (degeneracy, collective effects) that beats the classical no-go and reaches Carnot efficiency at strictly positive power. *Why:* a century-old boundary — but both surveyors flag that the engine class must be pinned before the question has a truth value.
 Source claims: Shiraishi–Saito–Tasaki (PRL 117, 190601, 2016) + 2026 proposals — both models — **borderline**.
-Status: `LEAD`
+Status: `REJECTED — SST excludes quantum systems; Tajima–Funo 2021 already solved this`
 
 ## §C Landauer & cooling (21–22)
 
