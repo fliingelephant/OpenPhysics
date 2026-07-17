@@ -154,7 +154,7 @@ Status: `LEAD`
 **26. Strong relaxation for chains (MLSI)** — `uniform-mlsi-for-one-dimensional-gibbs-samplers`
 1D non-commuting thermalizers now have a uniform spectral gap (STOC 2026); prove the stronger uniform entropy-decay constant, giving true rapid mixing from any starting state. *Why:* the explicitly-left-open half of this year's headline spin-chain result.
 Source claims: Bergamaschi–Chen (STOC 2026, arXiv:2510.08533) — gpt — open-confidence: **high**.
-Status: `LEAD`
+Status: `RECORDED QTD026`
 
 **27. Clustering ⇔ fast mixing** — `clustering-mixing-equivalence-noncommuting`
 Prove the equivalence — correlation decay in the thermal state if and only if fast relaxation of its dynamics — beyond commuting Hamiltonians (commuting case is a 2016 theorem). *Why:* welds statics to dynamics.
