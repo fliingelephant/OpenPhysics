@@ -159,7 +159,7 @@ Status: `RECORDED QTD026`
 **27. Clustering ⇔ fast mixing** — `clustering-mixing-equivalence-noncommuting`
 Prove the equivalence — correlation decay in the thermal state if and only if fast relaxation of its dynamics — beyond commuting Hamiltonians (commuting case is a 2016 theorem). *Why:* welds statics to dynamics.
 Source claims: Kastoryano–Brandão (CMP 344, 915, 2016) — opus — open-confidence: **high**.
-Status: `LEAD`
+Status: `RECORDED QTD027`
 
 **28. No phase transition ⇒ exponential clustering** — `gibbs-clustering-locality-temperature-subcritical`
 Prove that in 2D+ thermal states, correlations decay exponentially at every temperature above the actual phase transition — not just above the much higher threshold current proofs reach. *Why:* the assumption every 2024–25 rigorous paper imports; quantum analogue of a classical cornerstone.
