@@ -194,7 +194,7 @@ Status: `LEAD`
 **34. A checkable criterion for the Mpemba effect** — `triplet-obstruction-to-markovian-mpemba` · *fresh 2026*
 Prove the 2026 triplet conjecture: if no energy triplet of a detailed-balance master equation satisfies an explicit rate inequality, then no anomalous relaxation crossing (Mpemba effect) can occur. *Why:* turns a fashionable phenomenon into a verifiable criterion; proven at zero temperature.
 Source claims: Avitan–Factor–Gelbwaser-Klimovsky (arXiv:2603.04567, 2026) — gpt — open-confidence: **high**.
-Status: `LEAD`
+Status: `RECORDED QTD034`
 
 **35. Diffusion is positive** — `closed-system-diffusion-positivity` · *needs model-pinning*
 For one named chaotic spin chain, prove the closed-system diffusion constant is strictly positive and finite — "there exists no proof" for any clean chain (proven in 2025 only with added noise). *Why:* no theorem yet says any clean quantum chain genuinely diffuses.
