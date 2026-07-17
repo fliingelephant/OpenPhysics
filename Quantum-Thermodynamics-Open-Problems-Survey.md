@@ -32,7 +32,7 @@ Status: `LEAD`
 **4. "All states are universal catalysts" — the broken proof** — `universal-thermal-catalysts-proof-gap`
 Prove or refute the 2021 PRX claim that many copies of any resourceful state catalyze any free-energy-allowed transition: the RMP 2024 review reports its key lemma is invalid, leaving the theorem unproven. *Why:* a published, cited "theorem" currently without a proof.
 Source claims: Lipka-Bartosik–Skrzypczyk (PRX 11, 011061, 2021) vs RMP 96 (2024) — gpt — open-confidence: **med-high**.
-Status: `LEAD`
+Status: `RECORDED QTD004`
 
 **5. Equal-entropy catalysis with an infinite catalyst** — `equal-entropy-infinite-catalyst` · *OQP 49 residue*
 Prove or disprove: an infinite-dimensional catalyst can exactly convert between inequivalent states of equal entropy — the leftover of the otherwise-solved catalytic entropy conjecture. *Why:* decides whether entropy is the only catalytic invariant in the infinite limit.
