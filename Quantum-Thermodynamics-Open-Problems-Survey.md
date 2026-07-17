@@ -144,7 +144,7 @@ Status: `RECORDED QTD023`
 **24. Boundary Hamiltonians of thermal marginals** — `quasi-local-gibbs-marginal-hamiltonians`
 Prove that tracing out part of a high-temperature thermal state leaves a state that is itself thermal for a quasi-local effective Hamiltonian — open beyond commuting interactions. *Why:* makes "temperature is local" an operator-level statement.
 Source claims: Bluhm–Capel–Pérez-Hernández (J. Stat. Phys. 192, 134, 2025) — gpt — open-confidence: **high**.
-Status: `LEAD`
+Status: `RECORDED QTD024`
 
 **25. Fast thermalization in 2D+** — `quantum-gibbs-sampler-rapid-mixing-2d`
 Prove size-independent relaxation speed of local thermalizing dynamics for non-commuting lattice systems all the way to the phase transition (1D settled 2025; high temperature settled; slow-mixing counterexamples show the frontier is real). *Why:* nature thermalizes efficiently — and quantum computers get a licensed Gibbs-sampling primitive.
