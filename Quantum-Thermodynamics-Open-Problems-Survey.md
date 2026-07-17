@@ -17,7 +17,7 @@
 **1. Coherent states under thermal operations** — `coherent-thermal-operation-convertibility`
 Prove the complete rule deciding when one state can be turned into another by a thermal operation, once both carry coherence (solved for states without coherence, 2013; solved for qubits). *Why:* the founding question of single-shot quantum thermodynamics.
 Source claims: Ng–Woods (Springer 2018) · Lostaglio (Rep. Prog. Phys. 82, 114001, 2019) — both models — open-confidence: **high**.
-Status: `LEAD`
+Status: `RECORDED QTD001`
 
 **2. Correlated catalysis: one free energy to rule them all** — `correlated-catalytic-thermal-operations-coherence`
 Prove or disprove: with a catalyst allowed to keep correlations, a single free energy (plus a coherence-mode compatibility condition) decides every conversion under thermal operations — Shiraishi's explicit conjecture, "left as an open problem" in PRL 2025. *Why:* would be the second law of fully quantum thermodynamics.
