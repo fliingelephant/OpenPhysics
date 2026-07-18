@@ -56,8 +56,8 @@
     covered by those theorems; and (ii) whether any rigorous bound survives
     for lattice bosons, where unbounded occupations break the proofs. This
     entry adopts only flank (ii), stated above as claim (a)-(c), because
-    neither Abanin, De Roeck, Ho, and Huveneers, Communications in
-    Mathematical Physics 354, 809 (2017), nor Ho, Mori, Abanin, and Dalla
+    neither Abanin, De Roeck, Ho, and Huveneers, Physical Review B 95,
+    014112 (2017), nor Ho, Mori, Abanin, and Dalla
     Torre, Annals of Physics 454, 169297 (2023), states flank (i) as a named
     open problem with a precise target statement: both papers prove
     one-directional bounds only (an upper bound on the heating rate /
@@ -156,8 +156,8 @@
   <known>
     Abanin, De Roeck, Ho, and Huveneers, "Effective Hamiltonians,
     prethermalization and slow energy absorption in periodically driven
-    many-body systems," Communications in Mathematical Physics 354, 809
-    (2017), DOI 10.1007/s00220-017-2930-x, arXiv:1510.03405, Sec. II,
+    many-body systems," Physical Review B 95, 014112
+    (2017), DOI 10.1103/PhysRevB.95.014112, arXiv:1510.03405, Sec. II,
     restrict explicitly to "the case of a lattice system with locally
     bounded Hilbert space. In other words, the Hilbert space of site \(i\)
     is finite-dimensional, as is the case for fermions, spins, as well as
@@ -179,14 +179,21 @@
     \(H_{\mathrm{eff}}\) with \(\frac1N\|H_{\mathrm{eff}}-H_0\|=O(\Lambda/
     \Omega)\) (eq. (4)) and
     \(\frac1N|\langle\psi(t)|H_{\mathrm{eff}}|\psi(t)\rangle-\langle\psi(0)
-    |H_{\mathrm{eff}}|\psi(0)\rangle|\le e^{-O(\Omega/\Lambda)}\Lambda^2t^2\)
+    |H_{\mathrm{eff}}|\psi(0)\rangle|\le e^{-O(\Omega/\Lambda)}\Lambda^2t\)
     (eq. (5)) at stroboscopic times, for an arbitrary initial state.
     Applying Theorem 1 to \(H_{N,n_c}(t)\) at any fixed finite \(n_c\) is
-    legitimate, since \(\Lambda_{n_c}\lt\infty\) (Def section), and gives
-    (a)-(c) of the Claim above with \(C,\kappa\) depending on \(n_c\)
-    (through \(\Lambda_{n_c}\)) and \(\tau(\omega)\sim
-    \exp\!\big(\Theta(\omega/\Lambda_{n_c})\big)\), valid only once
-    \(\omega\gtrsim\Lambda_{n_c}=O(Un_c^2)\). Because this threshold diverges as
+    legitimate, since \(\Lambda_{n_c}\lt\infty\) (Def section); its stated
+    eq. (4)-(5) directly give (a) and (c) of the Claim above, with
+    \(\tau(\omega)\sim\exp\!\big(\Theta(\omega/\Lambda_{n_c})\big)\), valid
+    only once \(\omega\gtrsim\Lambda_{n_c}=O(Un_c^2)\). Property (b) is not
+    part of eq. (4)-(5) itself; at this same fixed \(n_c\), it follows
+    instead from the constructive renormalization procedure of Abanin, De
+    Roeck, Ho, and Huveneers, eq. (18) and eq. (29)-(30), which produces
+    \(H_*^{N,n_c}(\omega)\) as an explicit sum of terms of range growing
+    linearly in the expansion order and norm decaying exponentially in
+    that order (their eq. (24), eq. (27)). All constants \(C,\kappa\) so
+    obtained depend on \(n_c\) (through \(\Lambda_{n_c}\)). Because this
+    threshold diverges as
     \(n_c\to\infty\) at fixed \(\omega\), direct term-by-term application of
     Theorem 1 to the truncated model gives, for large enough \(n_c\), no
     information whatsoever at any fixed \(\omega\); it does not establish,
@@ -271,11 +278,11 @@
   </known>
 
   <refs>
-    <ref>D. A. Abanin, W. De Roeck, W. W. Ho, and F. Huveneers, Effective Hamiltonians, prethermalization and slow energy absorption in periodically driven many-body systems, Communications in Mathematical Physics 354, 809-827 (2017), DOI 10.1007/s00220-017-2930-x, arXiv:1510.03405, Sec. II (eq. (2)-(4), bounded-local-Hilbert-space hypothesis) and Sec. III/V (eq. (1), eq. (31), heating time \(\tau_*\sim e^{c\omega/h}\); Sec. V discussion of heating at \(t\sim\tau_*\) for ergodic \(H_*\)), used for the Def-section local-norm formalism and the Known-section baseline theorem.</ref>
+    <ref>D. A. Abanin, W. De Roeck, W. W. Ho, and F. Huveneers, Effective Hamiltonians, prethermalization and slow energy absorption in periodically driven many-body systems, Physical Review B 95, 014112 (2017), DOI 10.1103/PhysRevB.95.014112, arXiv:1510.03405, Sec. II (eq. (2)-(4), bounded-local-Hilbert-space hypothesis) and Sec. III/V (eq. (1), eq. (31), heating time \(\tau_*\sim e^{c\omega/h}\); Sec. V discussion of heating at \(t\sim\tau_*\) for ergodic \(H_*\)), used for the Def-section local-norm formalism and the Known-section baseline theorem.</ref>
     <ref>W. W. Ho, T. Mori, D. A. Abanin, and E. G. Dalla Torre, Quantum and classical Floquet prethermalization, Annals of Physics 454, 169297 (2023), DOI 10.1016/j.aop.2023.169297, arXiv:2212.00041, Sec. II.A (Theorem 1, eq. (3)-(5)), Sec. III (large-spin/growing-dimension extension and finiteness of \(\Lambda\)), Sec. IV (unbounded local Hamiltonians, Bose-Hubbard example, contrast with fast Arnold diffusion), Sec. VI (Bose-Hubbard experiment discussion), and Sec. VII (list of outstanding challenges naming driven lattice bosons), used for the Claim's target statement and the Known section throughout.</ref>
     <ref>A. Rubio-Abadal, M. Ippoliti, S. Hollerith, D. Wei, J. Rui, S. L. Sondhi, V. Khemani, C. Gross, and I. Bloch, Floquet Prethermalization in a Bose-Hubbard System, Physical Review X 10, 021044 (2020), DOI 10.1103/PhysRevX.10.021044, cited by Ho, Mori, Abanin, and Dalla Torre (2023), Sec. VI and Sec. VII as ref. 69, used only for the numerical/experimental evidence of exponentially slow heating in the driven Bose-Hubbard model that motivates, but does not prove, the claim above.</ref>
     <ref>E. G. Dalla Torre and D. Dentelski, Statistical Floquet prethermalization of the Bose-Hubbard model, SciPost Physics 11, 040 (2021), DOI 10.21468/SciPostPhys.11.2.040, cited by Ho, Mori, Abanin, and Dalla Torre (2023), Sec. VI as ref. 72, used only for the non-rigorous statistical (resonance-counting) argument noted in the Known section as not constituting a proof.</ref>
-    <ref>B. V. Chirikov and V. V. Vecheslavov, Theory of fast Arnold diffusion in many-frequency systems, Journal of Statistical Physics 71, 243-258 (1993), cited by Ho, Mori, Abanin, and Dalla Torre (2023), Sec. IV as ref. 41, used only for the contrasting polynomial-heating-rate phenomenon noted in the Known section, relevant to the disproof direction of the Ask section.</ref>
+    <ref>B. V. Chirikov and V. V. Vecheslavov, Theory of fast Arnold diffusion in many-frequency systems, Journal of Statistical Physics 71, 243-258 (1993), DOI 10.1007/BF01048098, cited by Ho, Mori, Abanin, and Dalla Torre (2023), Sec. IV as ref. 41, used only for the contrasting polynomial-heating-rate phenomenon noted in the Known section, relevant to the disproof direction of the Ask section.</ref>
   </refs>
 
   <ask>
