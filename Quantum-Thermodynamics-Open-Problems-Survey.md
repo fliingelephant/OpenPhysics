@@ -179,7 +179,7 @@ Status: `RECORDED QTD030`
 **31. When does thermal entanglement die?** — `thermal-entanglement-sudden-death-threshold`
 Prove the sharp temperature threshold below which thermal states are entangled (one-sided bound proven at FOCS 2024), and classify the symmetries that keep entanglement alive at all temperatures (2025–26 constructions). *Why:* the quantum/classical frontier of equilibrium matter.
 Source claims: Bakshi–Liu–Moitra–Tang (FOCS 2024) + arXiv:2508.20166, 2607.12710 — opus — open-confidence: **med-high**.
-Status: `LEAD`
+Status: `RECORDED QTD031`
 
 **32. Average eigenstate entanglement** — `eigenstate-entanglement-universality` · *needs model-pinning*
 Prove the conjectured universal entanglement curves of energy eigenstates — the free-fermion curve for quadratic models (explicit target, both surveyors), the maximal curve for chaotic ones. *Why:* the sharpest provable fingerprint separating chaos from integrability.
