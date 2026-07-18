@@ -38,17 +38,17 @@
       \lt\infty .
     \]
 
-    This is the weaker of two natural formalizations: it asks only for weak
-    local effective Hamiltonians, not for strong local effective
-    Hamiltonians; it asks only for a qualitative finite \(\mathbf b\)-decay
-    bound, not for a quantitative constant matching Theorem 3.6 or Theorem
-    3.8 of the source below; and it restricts \(\beta\) to the reals, where
-    Theorem 3.6 of the source allows complex \(\beta\). Bluhm, Capel, and
-    Pérez-Hernández, "Strong decay of correlations for Gibbs states in any
-    dimension," Journal of Statistical Physics 192, 134 (2025), Section 1.2,
-    judge that assuming existence of a strong effective Hamiltonian is
-    likely too restrictive once the Commuting Hypothesis is dropped, which
-    is why the weak version is the defensible target here.
+    This is the weaker of two natural formalizations, relative to Bluhm,
+    Capel, and Pérez-Hernández, "Strong decay of correlations for Gibbs
+    states in any dimension," Journal of Statistical Physics 192, 134
+    (2025): it asks only for weak local effective Hamiltonians, not for
+    strong local effective Hamiltonians; it asks only for a qualitative
+    finite \(\mathbf b\)-decay bound, not for a quantitative constant
+    matching their Theorem 3.6 or Theorem 3.8; and it restricts \(\beta\)
+    to the reals, where their Theorem 3.6 allows complex \(\beta\). Their
+    Section 1.2 judges that assuming existence of a strong effective
+    Hamiltonian is likely too restrictive once the Commuting Hypothesis is
+    dropped, which is why the weak version is the defensible target here.
   </claim>
 
   <def>
@@ -65,8 +65,14 @@
     \(\Phi=(\Phi_X)_{X\in\mathcal P_f(V)}\) with \(\Phi_X=\Phi_X^*\in
     \mathfrak A_X\). A function \(\mathbf b:\mathcal P_f(V)\to[0,\infty)\)
     is subadditive if \(\mathbf b(X\cup Y)\le\mathbf b(X)+\mathbf b(Y)\)
-    for all \(X,Y\in\mathcal P_f(V)\); \(\mathbf b(X)=\mu\,\mathrm{diam}(X)\)
-    for fixed \(\mu\gt0\) is the standard example. For \(\varepsilon\ge0\),
+    whenever \(X,Y\in\mathcal P_f(V)\) have \(X\cap Y\ne\emptyset\);
+    \(\mathbf b(X)=\mu\,\mathrm{diam}(X)\) for fixed \(\mu\gt0\) is the
+    standard example, since \(\mathrm{diam}(X\cup
+    Y)\le\mathrm{diam}(X)+\mathrm{diam}(Y)\) whenever \(X\cap
+    Y\ne\emptyset\) (this is the only case the cluster-expansion bounds
+    below use; \(\mu\,\mathrm{diam}(X)\) is not subadditive on disjoint
+    \(X,Y\), e.g. \(X=\{0\},Y=\{N\}\subset\mathbb Z\) as \(N\to\infty\)).
+    For \(\varepsilon\ge0\),
     \(\|\Phi\|_{\varepsilon,\mathbf b}:=\sup_{x\in V}\sum_{X\ni
     x}\|\Phi_X\|e^{\varepsilon|X|+\mathbf b(X)}\); \(\Phi\) is quasi-local,
     or short-range, if \(\|\Phi\|_{\varepsilon,\mathbf b}\lt\infty\) for
@@ -144,8 +150,8 @@
     \(X\cap L=\emptyset\) are allowed and are then multiples of the
     identity). Existence of strong local effective Hamiltonians at inverse
     temperature \(\beta\) implies existence of weak ones at the same
-    \(\beta\); the source states it has neither a proof nor a
-    counterexample for the converse.
+    \(\beta\); Bluhm-Capel-Pérez-Hernández state they have neither a proof
+    nor a counterexample for the converse.
 
     Commuting Hypothesis (Bluhm-Capel-Pérez-Hernández, Definition 3.5).
     \(\Phi\) satisfies the Commuting Hypothesis if there is a commuting
