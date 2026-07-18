@@ -204,7 +204,7 @@ Status: `REJECTED — Cited source misattributed; arXiv:2501.07749 authored by A
 **36. Thermal states hard at constant temperature** — `finite-temperature-thermal-nlts` · *complexity*
 Construct local Hamiltonians whose thermal states require deep circuits at some fixed temperature (known only for temperature shrinking with size; ground-state analogue proven 2022). *Why:* the finite-temperature quantum PCP frontier. Bucket: QuantumComputation.
 Source claims: Eldar (arXiv:1911.04461) · Anshu–Breuckmann–Nirkhe (2022) — opus — open-confidence: **med-high**.
-Status: `LEAD`
+Status: `RECORDED QTD036`
 
 **37. Optimal thermal area law** — `thermal-area-law-optimal-scaling` · *sharpening*
 Prove the optimal temperature-dependence in thermal area laws (remove log factors; decide whether a temperature-independent bound holds away from transitions). *Why:* a sharpening of a proven result — weakest shape in this group by the credit test.
