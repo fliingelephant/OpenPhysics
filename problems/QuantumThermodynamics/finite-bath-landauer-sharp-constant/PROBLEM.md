@@ -225,8 +225,8 @@
     n^2\) for \(n\gg1\)"); this entry follows the fully worked Appendix B
     derivation, which culminates unambiguously in "\(\le\)" (their Eq.
     (79), quoted in fact 2), as authoritative, and treats the main-text
-    Eq. (16) as an apparent sign/direction slip in the paper rather than
-    as a separate, additional claim.
+    Eq. (16) as an apparent sign/direction slip in Lipka-Bartosik and
+    Perarnau-Llobet (2025) rather than as a separate, additional claim.
   </known>
 
   <refs>

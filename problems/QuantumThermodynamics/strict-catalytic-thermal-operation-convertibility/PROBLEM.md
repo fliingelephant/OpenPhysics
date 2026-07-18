@@ -40,7 +40,8 @@
 
     A correct \(\mathcal C\) must reduce, whenever
     \([\rho_S,H_S]=[\sigma_S,H_S]=0\), to a relation logically equivalent
-    to: \(\rho_S=\sigma_S\), or \(F_\alpha(\rho_S,H_S)\gt
+    to: there exists a unitary \(U\) on \(S\) with \([U,H_S]=0\) and
+    \(\sigma_S=U\rho_SU^\dagger\), or \(F_\alpha(\rho_S,H_S)\gt
     F_\alpha(\sigma_S,H_S)\) for every \(\alpha\in\mathbb R\setminus\{0\}\),
     where \(F_\alpha\) is the generalized free energy defined below -- the
     criterion reported by Lipka-Bartosik, Wilming, and Ng as necessary and
@@ -353,7 +354,8 @@
     \([\rho_S,H_S]\neq0\) or \([\sigma_S,H_S]\neq0\). The proof must
     establish the reduction, whenever \([\rho_S,H_S]=[\sigma_S,H_S]=0\), to
     the pointwise-exact energy-incoherent criterion recalled above
-    (\(\rho_S=\sigma_S\), or \(F_\alpha(\rho_S,H_S)\gt
+    (there exists a unitary \(U\) on \(S\) with \([U,H_S]=0\) and
+    \(\sigma_S=U\rho_SU^\dagger\), or \(F_\alpha(\rho_S,H_S)\gt
     F_\alpha(\sigma_S,H_S)\) for every \(\alpha\in\mathbb
     R\setminus\{0\}\)).
 

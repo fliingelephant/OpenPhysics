@@ -75,9 +75,22 @@
     \]
     equivalently $d^{\rm eff}(U)=\mathrm{rank}(U-\mathbb1)$, finite iff
     $U-\mathbb1$ has finite rank, i.e. $U$ acts as the identity outside some
-    finite-dimensional subspace. (Consequently, if $d^{\rm
-    eff}(U^{(k)})\lt\infty$ for every $k\le N$, then $\varrho_{SM}^{(N)}$
-    differs from $\varrho_{SM}^{(0)}$ only on a finite-rank perturbation, so
+    finite-dimensional subspace $\mathcal A$. For the $U^{(k)}$ used
+    throughout this entry, "finite effective dimension" is taken in the
+    operational sense Taranto et al. use whenever they invoke it as a
+    hypothesis (Appendix D2, p.27: "Suppose that $U$ couples only $\mathscr
+    H_S$ with $\mathscr H_{M'}$ [a finite span of $H_M$-eigenstates];
+    whenever we talk of an operation with finite effective dimension in
+    this paper, we mean specifically such a $U$"): $\mathcal A\subseteq
+    \mathcal H_S\otimes\mathscr H_{M'}$ for some finite-dimensional span
+    $\mathscr H_{M'}\subseteq\mathcal H_M$ of $H_M$-eigenstates. This is a
+    genuine restriction beyond $d^{\rm eff}(U)\lt\infty$ alone whenever
+    $\mathcal H_M$ is infinite-dimensional (e.g. a rank-1 reflection about
+    $|0\rangle_S\otimes|\chi\rangle_M$ has $d^{\rm eff}=1$ however many Fock
+    levels $|\chi\rangle$ occupies). (Consequently, if every $U^{(k)}$,
+    $k\le N$, satisfies this, then $\varrho_{SM}^{(N)}$ agrees with
+    $\varrho_{SM}^{(0)}$ outside $\mathcal H_S\otimes\bigl(\bigcup_{k\le
+    N}\mathscr H_{M'}^{(k)}\bigr)$, a finite span of $H_M$-eigenstates, so
     $\varrho_S^{(N)}$, $\varrho_M^{(N)}$, and every quantity below are
     well-defined and finite for every finite $N$.)
 
@@ -104,54 +117,75 @@
   </def>
 
   <known>
-    The Landauer bound itself (proven, general). Taranto, Bakhshinezhad, Bluhm,
-    Silva, Friis, Lock, Vitagliano, Binder, Debarba, Schwarzhans, Clivaz, and
-    Huber, "Landauer vs. Nernst: What is the True Cost of Cooling a Quantum
-    System?", PRX Quantum 4, 010332 (2023) [full citation in refs], Eqs.
-    (3)-(4) (p.4): for every global unitary on $S\otimes M$ with $M$ initially
-    thermal, $\beta\Delta E_M\ge\widetilde\Delta S_S$, with equality iff the
-    final mutual information $I(S:M)$ and the final machine's relative entropy
-    to its own initial state both vanish; the equality form is proved as their
-    Theorem 9 (Appendix A1, p.17), which the source attributes to David Reeb
-    and Michael M. Wolf, "An improved Landauer principle with finite-size
-    corrections," New Journal of Physics 16, 103011 (2014), their Ref. [29]
-    (not independently re-verified here; see residual doubt below). Applied to
+    The Landauer bound itself (proven for $S,M$ both finite-dimensional;
+    extended here to this claim's infinite-dimensional $S$ by truncation).
+    Taranto, Bakhshinezhad, Bluhm, Silva, Friis, Lock, Vitagliano, Binder,
+    Debarba, Schwarzhans, Clivaz, and Huber, "Landauer vs. Nernst: What is
+    the True Cost of Cooling a Quantum System?", PRX Quantum 4, 010332
+    (2023) [full citation in refs], Eqs. (3)-(4) (p.4): for every global
+    unitary on $S\otimes M$ with $M$ initially thermal,
+    $\beta\Delta E_M\ge\widetilde\Delta S_S$, with equality iff the final
+    mutual information $I(S:M)$ and the final machine's relative entropy to
+    its own initial state both vanish; the equality form is proved as their
+    Theorem 9 (Appendix A1, p.17) under the hypothesis, stated there, that
+    $S$ and $M$ are both finite-dimensional, which the source attributes to
+    David Reeb and Michael M. Wolf, "An improved Landauer principle with
+    finite-size corrections," New Journal of Physics 16, 103011 (2014),
+    their Ref. [29] (not independently re-verified here; see residual doubt
+    below). Since $S$ is infinite-dimensional here, that hypothesis is
+    discharged step-by-step by the same finite-dimensional-truncation
+    argument Taranto et al. use, for general separable $S$, to prove their
+    Theorem 3 (Appendix D2): each $U^{(k)}$ has finite effective dimension in
+    the sense of def above, i.e. couples $S$ to only finitely many levels
+    of $M$, so $M$ can be replaced by a finite-dimensional effective
+    machine without changing any quantity relevant to Theorem 9, which then
+    applies directly. Applied to
     $\varrho'_{SM}=\varrho_{SM}^{(N)}$ for each $N$ (a valid global unitary
-    transform of the initial thermal product state), this gives $G^{(N)}\ge0$
-    for every $N\ge0$, as used in the claim.
+    transform of the initial thermal product state), this gives
+    $G^{(N)}\ge0$ for every $N\ge0$, as used in the claim.
 
-    Necessary structural condition on the machine (proven, general; does not by
-    itself resolve the open question). Taranto et al., Corollary 2 (p.6) and
-    Theorem 3 (p.7): a cooling protocol that saturates the Landauer bound must
-    couple $S$ to an infinite-dimensional subspace of $M$ overall (their
-    $d^{\rm eff}\to\infty$ for the single joint unitary obtained by
-    recompressing the whole protocol into unit time). This forces $M$, or the
-    composite of all steps taken together, to be infinite-dimensional in
-    total; it does not bar each *individual* step from having finite
-    $d^{\rm eff}(U^{(k)})$, and is explicitly satisfied by the finite-per-step
-    protocol below (there $M$ is a single, hence infinite-dimensional,
-    harmonic oscillator).
+    Necessary structural conditions on the machine (proven, general; do not by
+    themselves resolve the open question). Taranto et al., Corollary 2 (p.6):
+    a protocol that perfectly cools $S$ with energy cost at the Landauer
+    limit forces the machine to be infinite-dimensional, with
+    $\omega_M^{\rm max}$, its maximal energy gap, diverging. Their Theorem 3
+    (p.7), a distinct dynamical result: the unitary representing a cooling
+    protocol that saturates the Landauer limit must act nontrivially on an
+    infinite-dimensional subspace of $M$ (their $d^{\rm eff}\to\infty$ for
+    the single joint unitary obtained by recompressing the whole protocol
+    into unit time). Neither condition bars each *individual* step from
+    having finite $d^{\rm eff}(U^{(k)})$, and both are explicitly satisfied
+    by the finite-per-step protocol below (there $M$ is a single, hence
+    infinite-dimensional, harmonic oscillator).
 
-    Finite time and finite complexity together already exclude any finite
-    energy cost, hence exclude the (finite) Landauer cost (proven, general;
-    this is why the open case is specifically the diverging-time regime).
-    Taranto et al., Appendix B2 (pp.19-20): for a *finite* number of steps of
-    finite effective dimension, perfect cooling of a full-rank initial state
-    forces the energy cost to diverge (concluding sentence, p.20: "we see that
-    within the resource trinity of energy, time, and control complexity, if
-    the latter two are finite, energy must diverge to asymptotically achieve a
-    pure state"). A finite-step protocol in the sense used here is therefore,
-    by construction, restricted to a countably infinite (diverging) number of
-    steps whenever it is to cool at any finite energy cost at all -- matching
-    the source's own framing of this appendix and of Appendix E below.
+    Finite time and finite complexity together exclude any finite energy
+    cost when $S$ and $M$ are both finite-dimensional (proven only in that
+    setting; recorded here as motivating context, not as an established fact
+    about this claim's infinite-dimensional oscillator $S$). Taranto et al.,
+    Appendix B2 (pp.19-20): for finite-dimensional
+    $H_S=\sum_{n=0}^{d_S-1}\omega_S^{(n)}|n\rangle\langle n|_S$ and
+    finite-dimensional $H_M$, a *finite* number of steps of finite effective
+    dimension forces the energy cost of perfect cooling to diverge, via a
+    Bolzano-Weierstrass argument that fixes both $d_S$ and $d_M$ (concluding
+    sentence, p.20: "we see that within the resource trinity of energy,
+    time, and control complexity, if the latter two are finite, energy must
+    diverge to asymptotically achieve a pure state"). The same paragraph's
+    contrast case allows only $\varrho_M,\varrho'_M$ -- not $S$ -- to become
+    infinite-dimensional once time or complexity diverges, and the next
+    section is titled "Appendix C: Diverging Time Cooling Protocol for
+    Finite-Dimensional Systems"; the source never restates this necessity
+    result for infinite-dimensional $S$. It is recorded here only as
+    motivation for why finite-step protocols in this entry are studied via
+    $N\to\infty$, not as a fact used to establish any property of
+    $\Gamma^\ast$.
 
     An explicit finite-per-step-complexity protocol that perfectly cools but
     leaves a strictly positive gap (proven witness). Taranto et al., Appendix
     E2b (pp.41-43): with $M$ a single harmonic-oscillator mode at the same
     frequency $\omega$ and temperature as $S$, a sequence of two-level
     population-exchange unitaries $U_{SM}^{(k)}$ (their Eq. E25) has
-    $d^{\rm eff}\bigl(U_{SM}^{(k)}\bigr)=2$ for every $k$ (each a rank-2
-    subspace swap), and $\lim_{k\to\infty}\mathrm{tr}_M\bigl[\varrho_{SM}^{(k)}
+    $d^{\rm eff}\bigl(U_{SM}^{(k)}\bigr)=1$ for every $k$ (each a rank-1
+    antisymmetric-eigenspace swap), and $\lim_{k\to\infty}\mathrm{tr}_M\bigl[\varrho_{SM}^{(k)}
     \bigr]=|0\rangle\langle0|_S$ exactly (their Eq. E26, obtained by a
     Hilbert-hotel-style argument that places every one of the infinitely many
     eigenvalues of the joint initial state into the target's ground-state
@@ -187,13 +221,15 @@
     here only as further context, not as bearing on $\Gamma^\ast$.)
 
     The open-question statements (verbatim, two independent loci in the same
-    paper). Main text, Sec. IV.B.1 "Sufficiency for Optimal Cooling" (p.8):
-    "In contrast, we then present a protocol that demonstrates that perfect
-    cooling is possible given diverging time and operations acting on only a
-    finite effective dimensionality (i.e., using non-Gaussian operations),
-    with a finite energy cost that is greater than the Landauer limit; whether
-    or not a similar protocol that saturates the Landauer limit exists in this
-    setting remains an open question." Appendix E introduction (p.37):
+    paper). Main text, Sec. IV.B.1 "Correspondence to Practical Difficulty"
+    (p.8, closing sentence, immediately before Sec. IV.B.2 "Sufficiency for
+    Optimal Cooling" begins): "In contrast, we then present a protocol that
+    demonstrates that perfect cooling is possible given diverging time and
+    operations acting on only a finite effective dimensionality (i.e., using
+    non-Gaussian operations), with a finite energy cost that is greater than
+    the Landauer limit; whether or not a similar protocol that saturates the
+    Landauer limit exists in this setting remains an open question." Appendix
+    E introduction (p.37):
     "Whether or not a similar protocol exists that also saturates the
     Landauer bound remains an open question." Appendix E2b's own closing
     discussion (p.43) restates the same unresolved status in different words:
@@ -206,7 +242,7 @@
     Reading note (scope choices made here; weaker precise formulation
     adopted). (a) The claim requires $d^{\rm eff}(U^{(k)})\lt\infty$ for each
     step individually, without requiring a bound uniform in $k$. The source's
-    own witness (E2b) happens to be uniform ($d^{\rm eff}\equiv2$), but its
+    own witness (E2b) happens to be uniform ($d^{\rm eff}\equiv1$), but its
     own phrasing of the open question, "operations acting on only a finite
     effective dimensionality" (p.8) and "finite control complexity in each of
     the diverging number of steps" (p.41), is naturally read per-operation,
@@ -219,10 +255,21 @@
     continuous-variable programme (p.37, "we now analyse the case of cooling
     infinite-dimensional quantum systems in detail... ensembles of harmonic
     oscillators"), not because the open question is stated as being
-    specifically about oscillator machines. Both choices widen the admissible
-    protocol class relative to the source's own explicit constructions, making
-    $\Gamma^\ast=0$ easier to witness and $\Gamma^\ast\gt0$ correspondingly
-    harder to prove -- the weaker, more cautious existence claim.
+    specifically about oscillator machines. (c) $\Gamma^\ast=0$ is witnessed
+    by an *approaching family*: a possibly different finite-step protocol
+    $(M,\{U^{(k)}\})$ for each $\epsilon\gt0$ with $\liminf_N
+    G^{(N)}\lt\epsilon$, per the infimum definition of $\Gamma^\ast$ in the
+    claim above, with no single protocol required to attain $\lim_N
+    G^{(N)}=0$ exactly. This is weaker than the source's own phrasing of the
+    open question, "whether or not a similar protocol exists that also
+    saturates the Landauer bound" (Appendix E introduction, p.37, quoted in
+    full above), which asks for one protocol -- structured, like the
+    Appendix E2b witness, as a single machine with one fixed infinite
+    sequence of steps -- whose own limit reaches $0$; this entry does not
+    establish that the two readings coincide. Choices (a)-(c) each weaken
+    the source's literal formulation, making $\Gamma^\ast=0$ easier to
+    witness and $\Gamma^\ast\gt0$ correspondingly harder to prove -- the
+    weaker, more cautious existence claim.
 
     Residual doubt (recorded, not resolved by further search per this entry's
     task instructions). This entry verifies only Taranto et al. (2023)
@@ -249,8 +296,11 @@
     p.4 (coherent-control energy/entropy accounting and the Landauer bound);
     p.6, Corollary 2, and p.7, Definition 1 and Theorem 3 (effective
     dimension; necessity of an infinite-dimensional machine to saturate the
-    Landauer bound); p.8, Sec. IV.B.1 "Sufficiency for Optimal Cooling"
-    (verbatim open-question statement); Appendix A1, p.17, Theorem 9 (equality
+    Landauer bound); Appendix D2, p.27 (proof of Theorem 3: the operational
+    restriction of "finite effective dimension" to unitaries coupling the
+    target to only a finite span of $H_M$-eigenstates); p.8, Sec. IV.B.1 "Correspondence to Practical
+    Difficulty" (closing sentence, verbatim open-question statement);
+    Appendix A1, p.17, Theorem 9 (equality
     form of Landauer's principle, attributed to Reeb and Wolf 2014); Appendix
     B2, pp.19-20 (necessity of diverging energy when time and control
     complexity are both finite); Appendix E introduction, p.37 (verbatim
@@ -285,13 +335,20 @@
     (e.g. as an explicit function of $\beta$ and $\omega_S$) would strengthen,
     but is not required beyond, the strict positivity of some such $c$.
 
-    The following count as progress, not as resolving the claim: (i) a
-    finite-step cooling protocol with a smaller gap than the explicit value
-    from Appendix E2b (known above), without a proof that a whole sequence of
-    such protocols drives the gap to $0$; (ii) a resolution restricted to a
-    specific sub-class of machines (e.g. $M$ a fixed finite number of
-    oscillator modes, or $M$ restricted to qudits) rather than the general
-    class of def above; (iii) a resolution under a bound on $d^{\rm
+    The following count as progress, not as resolving the claim.
+    $\Gamma^\ast$ is an infimum over the general admissible class of def
+    above, so a proof of $\Gamma^\ast=0$ confined to a narrower sub-class
+    already forces $\Gamma^\ast=0$ for the general class too (the infimum
+    over a superset is no larger than the infimum over any of its
+    subsets), and is therefore a complete proof, not progress; the
+    sub-class restrictions in (ii)-(iii) below apply to disproof attempts
+    only, for which no such transfer holds. (i) a finite-step cooling
+    protocol with a smaller gap than the explicit value from Appendix E2b
+    (known above), without a proof that a whole sequence of such protocols
+    drives the gap to $0$; (ii) a disproof restricted to a specific
+    sub-class of machines (e.g. $M$ a fixed finite number of oscillator
+    modes, or $M$ restricted to qudits) rather than the general class of
+    def above; (iii) a disproof established under a bound on $d^{\rm
     eff}(U^{(k)})$ uniform in $k$ (the narrower reading flagged in known,
     "Reading note," point (a)) that does not settle the per-step-only,
     non-uniform reading adopted in the claim; (iv) convergence of

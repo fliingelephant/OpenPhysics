@@ -138,8 +138,8 @@
     \(\lambda_0\) depends only on \(\beta\) and \(q\), not on \(n\) or on
     \(H\) -- exactly the claim above with \(\alpha(\mathcal L_{H,\beta})\)
     replaced by \(\lambda_{gap}(\mathcal L_{H,\beta})\). Immediately after
-    stating this theorem, the source draws only the following consequence
-    for mixing: convergence to trace-distance error \(\epsilon\) from an
+    stating this theorem, Bergamaschi and Chen draw only the following
+    consequence for mixing: convergence to trace-distance error \(\epsilon\) from an
     arbitrary initial state is guaranteed only in time \(t_{mix}(\epsilon)=
     \lambda_{gap}^{-1}\cdot O\big(n+\log\tfrac1\epsilon\big)\) -- a bound
     with an explicit term linear in \(n\). By contrast, an
@@ -160,7 +160,7 @@
     [Bardet-Capel-Gao-Lucia-Pérez-García-Rouzé, Kochanowski-Alhambra-Capel-
     Rouzé] are applicable in our context, since our spectral conditional
     expectation is not completely positive." This is the seed of the claim
-    above, in the source's own words, together with a stated technical
+    above, in Bergamaschi and Chen's own words, together with a stated technical
     obstruction (loss of complete positivity of the spectral conditional
     expectation used in their proof of Theorem I.1) to directly transferring
     the commuting-case route.
@@ -177,8 +177,8 @@
     relative-entropy decay is exponential "with an exponent that scales
     logarithmically with the length of the chain" -- i.e.\ a decay rate
     that degrades (slowly, as a function only of \(n\)) rather than one
-    that is literally \(n\)-independent; the authors describe this as
-    matching the classical Holley-Stroock result "up to a logarithmic
+    that is literally \(n\)-independent; Bardet, Capel, Gao, Lucia,
+    Pérez-García, and Rouzé describe this as matching the classical Holley-Stroock result "up to a logarithmic
     overhead."
 
     (ii) Kochanowski, Alhambra, Capel, and Rouzé, "Rapid thermalization of

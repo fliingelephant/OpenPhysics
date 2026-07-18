@@ -280,7 +280,7 @@
     interesting models in quantum statistical mechanics." This is the
     direct source of the claim recorded above and of the ambiguity
     flagged there: the sentence records a research direction in prose,
-    not one of the paper's three explicitly numbered Outlook conjectures
+    not one of Kastoryano-Brandão (2016)'s three explicitly numbered Outlook conjectures
     (on, respectively, weak/strong clustering equivalence for \(d=2\)
     commuting \(\Phi\); transfer of ground-state clustering to low
     non-zero temperature for commuting \(\Phi\); and absence of 2D

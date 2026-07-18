@@ -201,7 +201,7 @@
     single qubit "the thermal operations and the enhanced thermal
     operations approximately coincide," citing F. vom Ende, Which Bath
     Hamiltonians Matter for Thermal Operations?, Journal of Mathematical
-    Physics 63, 112202 (2022), and their own Theorem 10. Taken together,
+    Physics 63, 112202 (2022), and that paper's Theorem 10. Taken together,
     these statements are suggestive that the qubit case of Conjecture 1 may
     already follow from material inside this same paper; however, vom
     Ende-Malvetti-Dirr-Schulte-Herbrüggen (2023) never state this as a

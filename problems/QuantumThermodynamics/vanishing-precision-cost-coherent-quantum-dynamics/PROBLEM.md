@@ -124,15 +124,29 @@
     3.2), $\mathcal P^3_{min}\approx0.47242$ (Eq. (43), Section 3.3), and
     $\mathcal P^4_{min}\approx0.2625$ (Eq. (49), Section 3.4, summarized in
     Section 4's Eq. (50)) -- the three-point decreasing trend
-    $1.25,\,0.47,\,0.26$ that motivates the conjecture. For $N=3,4$ the
-    search is explicitly restricted to configurations with at most two
-    dissipation channels, a restriction the authors justify only by the
-    empirical pattern observed at $N=2$ (Section 3.3: "we found that the
-    addition of extra dissipation channels generally increases the
-    uncertainty products"), not by a general proof that more channels
-    cannot help at every $N$; the quoted $N=3,4$ values are therefore
-    minima within that restricted search, not values with a closed-form
-    global-optimality certificate.
+    $1.25,\,0.47,\,0.26$ that motivates the conjecture. The $N=3$ and
+    $N=4$ searches use different restrictions, neither exhaustive. For
+    $N=3$ (Section 3.3), the search is explicitly restricted to
+    configurations with at most two dissipation channels, with Lindblad
+    operators drawn from an explicit four-element set of single- and
+    combined-transition operators (Eq. (42)); within that restricted
+    search, the numerical optimum always has the second channel's rate
+    vanish, so the value in Eq. (43) is in fact attained by a
+    single-channel configuration. For $N=4$ (Section 3.4), by contrast,
+    the search assumes from the outset a single dissipation channel
+    whose Lindblad operator is restricted to the three-parameter chain
+    form $L[\alpha,\beta]=|1\rangle\langle2|+\alpha|2\rangle\langle3|
+    +\beta|3\rangle\langle4|$ (Eq. (47)) -- narrower than "at most two
+    channels" in channel count, and narrower than the $N=3$ operator set
+    in structural form. The authors motivate both restrictions by the
+    empirical pattern that the optimal two- and three-level
+    configurations found used only a single channel (Section 3.2;
+    Section 3.3: "we found that the addition of extra dissipation
+    channels generally increases the uncertainty products"), not by a
+    general proof that no other channel count or operator form could do
+    better at $N=3$ or $N=4$; the quoted $N=3,4$ values are therefore
+    minima within these restricted searches, not values with a
+    closed-form global-optimality certificate.
 
     Coherence is necessary, and high dimension alone is not sufficient. In
     the semiclassical (weak-driving) limit of the two-level example,
@@ -201,10 +215,14 @@
     closed-form analytic proof, in place of numerical optimization, that
     the known $N=3$ or $N=4$ values (Eqs. (43),(49)) are the true global
     minima among all configurations of that dimension (with no
-    restriction on the number of channels), without addressing
+    restriction on the number of dissipation channels, and, for $N=4$,
+    no restriction on the Lindblad operator's structural form), without
+    addressing
     $N\to\infty$; (ii) extending the numerical search to further fixed
-    dimensions, with or without the at-most-two-channel restriction of
-    Sections 3.3-3.4, without an argument covering every $N$; (iii) an
+    dimensions, whether or not it retains a restriction on the number of
+    dissipation channels or the structural form of their Lindblad
+    operators comparable to those used for $N=3$ or $N=4$ (Sections 3.3,
+    3.4), without an argument covering every $N$; (iii) an
     explicit sequence of configurations giving an upper bound on $\mathcal
     P^N_{min}$ that is shown, or only observed numerically, to decrease
     with $N$ without a proof that its limit is exactly $0$ rather than

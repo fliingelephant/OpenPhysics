@@ -99,7 +99,11 @@
     convention for singular \(A\) or \(B\) in the lower bound. The claim
     recorded here therefore uses the positive-definite domain, the precise
     reading under which every term is unambiguously defined, rather than a
-    limiting extension to singular matrices.
+    limiting extension to singular matrices. Dinh, arXiv:2605.17782, Eq.
+    (1.2), independently states the same two-sided sandwich "for positive
+    definite matrices \(A,B\), with the positive semidefinite case obtained
+    by approximation," confirming positive-definiteness as the domain of
+    the exact statement rather than an artifact of this entry's phrasing.
 
     Cha and Lee, One-parameter counterexamples to the refined
     Bessis-Moussa-Villani conjecture, arXiv:2603.19927 (2026), refute the
@@ -126,7 +130,7 @@
 
   <refs>
     <ref>Open Quantum Problems, Problem 40: Refinement of the Bessis-Moussa-Villani conjecture, IQOQI Vienna, https://oqp.iqoqi.oeaw.ac.at/refinement-of-the-bessis-moussa-villani-conjecture, attributed to Daniel Hägele, communicated by R. F. Werner; used for the problem statement and the two-sided sandwich inequality. (Direct access returned HTTP 503 at verification time; content confirmed via search-result excerpt and via the identical restatement in Cha and Lee, arXiv:2603.19927, Eqs. (1)-(2) and reference [24], which records this listing and gives the same problem number.)</ref>
-    <ref>M. Adnane, Refinement of the Bessis-Moussa-Villani Conjecture (2017); cited as reference [27] in Cha and Lee, arXiv:2603.19927, alongside the OQP 40 listing as the source of the refined conjecture. Not independently read for this entry; venue and DOI not available from the citing source.</ref>
+    <ref>Mostafa Adnane, Refinement of the Bessis-Moussa-Villani Conjecture (2017); cited as reference [27] in Cha and Lee, arXiv:2603.19927, alongside the OQP 40 listing as the source of the refined conjecture, and matched by web search to a 2017 note by Mostafa Adnane (École Polytechnique, Département de Physique) hosted on ResearchGate. Full text not independently read for this entry; no DOI located at verification time.</ref>
     <ref>Hyunho Cha and Jungwoo Lee, One-parameter counterexamples to the refined Bessis-Moussa-Villani conjecture, arXiv:2603.19927 [quant-ph] (2026), Eqs. (1)-(2) for the definition of \(p_{n,m}(A,B)\) and the sandwich inequality, Proposition 6 and Corollary 2 for the counterexample family, Section VII for confirming the refutation is confined to the upper inequality.</ref>
     <ref>Trung Hoa Dinh, On the Failure of the Upper Bound in the Refined BMV Conjecture and a Pinching Correction, arXiv:2605.17782 [quant-ph] (2026); the pinching-corrected upper bound for the two-letter case.</ref>
     <ref>D. Bessis, P. Moussa, and M. Villani, Monotonic converging variational approximations to the functional integrals in quantum statistical mechanics, J. Math. Phys. 16, 2318 (1975); origin of the BMV conjecture.</ref>

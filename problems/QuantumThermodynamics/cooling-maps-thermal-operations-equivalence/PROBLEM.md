@@ -4,7 +4,7 @@
 <problem id="QTD007">
   <status>open</status>
   <name>Cooling Maps versus Low-Temperature Thermal Operations</name>
-  <keys>cooling maps cooling map thermal operations low-temperature thermal operations zero-bath-temperature thermal operations zero temperature bath ground-state bath ground eigenspace energy-conserving unitary gibbs state ancilla bath low temperature quantum thermodynamics quantum coherence energy coherence coherence transfer optimally coherent cooling maps qubit thermal operations two-level thermal operations kraus operators kraus decomposition ut-majorization upper-triangular majorization thermo-majorization state transformation conditions narasimhachar gour narasimhachar-gour main open question unattainability third law of thermodynamics low-temperature thermodynamics with quantum coherence cooling map thermal operation equivalence cooling map realizability</keys>
+  <keys>cooling maps cooling map thermal operations low-temperature thermal operations zero-bath-temperature thermal operations zero temperature bath ground-state bath ground eigenspace energy-conserving unitary gibbs state ancilla bath low temperature quantum thermodynamics quantum coherence energy coherence coherence transfer optimally coherent cooling maps qubit thermal operations two-level thermal operations kraus operators kraus decomposition ut-majorization upper-triangular majorization thermo-majorization state transformation conditions narasimhachar gour narasimhachar-gour main open question unattainability third law of thermodynamics low-temperature thermodynamics with quantum coherence cooling map thermal operation equivalence cooling map realizability transition feasibility state transition feasibility conjecture 1 channel set equality reachability equivalence</keys>
 
   <claim>
     Fix a finite-dimensional quantum system \(S\), \(d:=\dim S\lt\infty\), and a
@@ -12,20 +12,47 @@
     non-degenerate spectrum \(E_1\lt E_2\lt\cdots\lt E_d\) and non-degenerate
     energy gaps \(E_i-E_j\ne E_k-E_l\) for any index pairs \((i,j)\ne(k,l)\)
     except when \(i=j,k=l\) or \(i=k,j=l\) (the def below fixes this energy
-    ordering and uses it throughout). Let \(\mathrm{CM}(S)\) be the
-    set of cooling maps on \((S,H_S)\) and \(\mathrm{TO}_{\mathrm{low}}(S)\) the
-    set of low-temperature thermal operations on \((S,H_S)\), both defined
-    below.
+    ordering and uses it throughout). Let \(\mathrm{CM}(S)\) be the set of
+    cooling maps on \((S,H_S)\) and \(\mathrm{TO}_{\mathrm{low}}(S)\) the set
+    of low-temperature thermal operations on \((S,H_S)\), and let
+    \(\to_{\mathrm{CM}}\) and \(\to_{\mathrm{TO}}\) be the transition-feasibility
+    relations they induce on states of \(S\), all defined below.
 
-    For every finite \(d\ge1\) and every non-degenerate \(H_S\) as above,
+    For every finite \(d\ge1\), every non-degenerate \(H_S\) as above, and
+    every pair of states \(\rho,\sigma\) on \(S\),
     \[
-      \mathrm{CM}(S)=\mathrm{TO}_{\mathrm{low}}(S).
+      \rho\to_{\mathrm{CM}}\sigma \iff \rho\to_{\mathrm{TO}}\sigma.
     \]
     Since \(\mathrm{TO}_{\mathrm{low}}(S)\subseteq\mathrm{CM}(S)\) already holds
-    for every such \(S,H_S\) (stated in known below), the open content of the
-    claim is exactly the reverse containment: every cooling map on \((S,H_S)\)
-    is realizable as a low-temperature thermal operation on \((S,H_S)\), i.e.
-    \(\mathrm{CM}(S)\subseteq\mathrm{TO}_{\mathrm{low}}(S)\).
+    for every such \(S,H_S\) (stated in known below), the implication
+    \(\rho\to_{\mathrm{TO}}\sigma\implies\rho\to_{\mathrm{CM}}\sigma\) holds
+    automatically for every \(\rho,\sigma\) (the map witnessing
+    \(\rho\to_{\mathrm{TO}}\sigma\) is itself already an element of
+    \(\mathrm{CM}(S)\)), and the open content of the claim is exactly the
+    converse: for every \(\rho,\sigma\),
+    \(\rho\to_{\mathrm{CM}}\sigma\implies\rho\to_{\mathrm{TO}}\sigma\), i.e.
+    every transition achievable by some cooling map is achievable by some
+    low-temperature thermal operation, not necessarily the same map.
+
+    This transition-feasibility form is the reading fixed by Narasimhachar
+    and Gour's own "Conjecture 1" (Supplementary Information Section S2, part
+    F, quoted in full in known below): "Cooling maps are equivalent to
+    low-temperature thermal operations, with regard to the feasibility of
+    state transitions," together with their accompanying caveat that this
+    could hold "even if the set of cooling maps is strictly larger than that
+    of thermal operations." This claim is therefore deliberately weaker than
+    the superficially similar statement of literal channel-set equality,
+    \(\mathrm{CM}(S)=\mathrm{TO}_{\mathrm{low}}(S)\) as sets of CPTP maps on
+    \(S\): channel-set equality would imply the transition-feasibility
+    statement above (a single map on each side would witness every
+    transition simultaneously) but is not implied by it, since a priori
+    \(\mathrm{CM}(S)\) could contain channels absent from
+    \(\mathrm{TO}_{\mathrm{low}}(S)\) while every individual transition any
+    such channel realizes is separately reproduced by some other, possibly
+    transition-dependent, element of \(\mathrm{TO}_{\mathrm{low}}(S)\).
+    Narasimhachar and Gour explicitly leave this distinction open and
+    conjecture only the transition-feasibility statement above; this entry
+    follows that choice as the weaker, precisely source-attested reading.
   </claim>
 
   <def>
@@ -102,6 +129,12 @@
     operations is a strictly weaker, still-meaningful nearby variant that
     this entry's claim does not cover.
 
+    For states \(\rho,\sigma\) on \(S\), write \(\rho\to_{\mathrm{CM}}\sigma\)
+    iff there exists \(\mathcal C\in\mathrm{CM}(S)\) with
+    \(\mathcal C(\rho)=\sigma\), and write \(\rho\to_{\mathrm{TO}}\sigma\) iff
+    there exists \(\mathcal E\in\mathrm{TO}_{\mathrm{low}}(S)\) with
+    \(\mathcal E(\rho)=\sigma\).
+
     UT-majorization. For \(u=(u_1,\ldots,u_d)^T,v=(v_1,\ldots,v_d)^T\in\mathbb
     R^d\), write \(u\succ^{\mathrm{UT}}v\) iff
     \(\sum_{i=k}^du_i\ge\sum_{i=k}^dv_i\) for every \(k=2,\ldots,d\) (\(d-1\)
@@ -153,69 +186,103 @@
     well by an element of \(\mathrm{TO}_{\mathrm{low}}(S)\), via density of
     the rationals (Corollary S2.10); this is partial, motivating evidence for
     \(d\gt2\), not a proof that \(\mathrm{CM}(S)\subseteq\mathrm{TO}_{\mathrm{low}}(S)\)
-    for every cooling map at every \(d\gt2\).
+    for every cooling map at every \(d\gt2\). Because channel-set equality
+    implies the transition-feasibility relation of the claim above (a single
+    map witnesses every transition on each side at once), the \(d=2\) result
+    and the \(\mathrm{TO}_{\mathrm{low}}(S)\)-membership results for
+    optimally coherent processes and their rational mixtures each establish
+    the claim above on their respective restricted domains, in this strictly
+    stronger channel-set form.
 
-    Narasimhachar and Gour, Discussion, state (verbatim): "The main open
-    question emerging from this work is whether the mathematically
-    characterized cooling maps are equivalent to the physically motivated
-    thermal operations, or merely a close approximation thereof. Their
-    equivalence for the cases of two-level systems and mixtures of optimally
-    coherent processes motivates us to conjecture equivalence in general. The
-    study of cooling maps aided by catalysts, and possible generalizations to
-    higher temperatures, are other open problems that would provide insight
-    into thermodynamics." No proof, disproof, or further resolution of the
-    \(d\gt2\) direction of this question is given anywhere else in the main
-    text or Supplementary Information of the same paper.
+    Narasimhachar and Gour, Supplementary Information Section S2, part F
+    ("Cooling maps and thermal operations"), state (verbatim): "Conjecture 1.
+    Cooling maps are equivalent to low-temperature thermal operations, with
+    regard to the feasibility of state transitions." They immediately add
+    (verbatim): "Note that this could be true even if the set of cooling
+    maps is strictly larger than that of thermal operations—there could
+    still be a thermal operation achieving every state transition that is
+    possible through cooling maps." This passage is the source of the
+    transition-feasibility formulation used in the claim above, and of its
+    explicit distinction from literal channel-set equality
+    \(\mathrm{CM}(S)=\mathrm{TO}_{\mathrm{low}}(S)\).
+
+    Narasimhachar and Gour, Discussion, restate the same conjecture in prose
+    (verbatim): "The main open question emerging from this work is whether
+    the mathematically characterized cooling maps are equivalent to the
+    physically motivated thermal operations, or merely a close approximation
+    thereof. Their equivalence for the cases of two-level systems and
+    mixtures of optimally coherent processes motivates us to conjecture
+    equivalence in general. The study of cooling maps aided by catalysts,
+    and possible generalizations to higher temperatures, are other open
+    problems that would provide insight into thermodynamics." No proof,
+    disproof, or further resolution of the \(d\gt2\) direction of this
+    question is given anywhere else in the main text or Supplementary
+    Information of the same paper.
   </known>
 
   <refs>
-    <ref>V. Narasimhachar and G. Gour, Low-temperature thermodynamics with quantum coherence, Nature Communications 6, 7689 (2015), DOI: 10.1038/ncomms8689, arXiv:1409.7740, used for: the Results section "The emergence of 'cooling maps'" (definition of cooling maps and of the low-temperature, ground-eigenspace-projector bath state); Supplementary Information Section S2.1, Observation S2.1 (proof that every low-temperature thermal operation is a cooling map); the Results section "State transformation conditions", Theorem 1, together with Supplementary Information Section S2.3 (definition of UT-majorization) (the closed-form necessary-and-sufficient transition condition on cooling maps); the Results section "Optimally coherent cooling maps are thermal" together with Supplementary Information Section S2, Corollaries S2.7, S2.8, and S2.10 (proof that cooling maps and low-temperature thermal operations coincide when \(\dim S=2\) [Corollary S2.7], and the \(\dim S\gt2\) partial evidence that optimally coherent cooling maps [Corollary S2.8] and rational-weight mixtures thereof [Corollary S2.10] lie exactly in low-temperature thermal operations, with general mixtures only approximated arbitrarily well); and the Discussion (the exact statement of the open question recorded by this entry's claim).</ref>
+    <ref>V. Narasimhachar and G. Gour, Low-temperature thermodynamics with quantum coherence, Nature Communications 6, 7689 (2015), DOI: 10.1038/ncomms8689, arXiv:1409.7740, used for: the Results section "The emergence of 'cooling maps'" (definition of cooling maps and of the low-temperature, ground-eigenspace-projector bath state); Supplementary Information Section S2.1, Observation S2.1 (proof that every low-temperature thermal operation is a cooling map); the Results section "State transformation conditions", Theorem 1, together with Supplementary Information Section S2.3 (definition of UT-majorization) (the closed-form necessary-and-sufficient transition condition on cooling maps); the Results section "Optimally coherent cooling maps are thermal" together with Supplementary Information Section S2, Corollaries S2.7, S2.8, and S2.10 (proof that cooling maps and low-temperature thermal operations coincide when \(\dim S=2\) [Corollary S2.7], and the \(\dim S\gt2\) partial evidence that optimally coherent cooling maps [Corollary S2.8] and rational-weight mixtures thereof [Corollary S2.10] lie exactly in low-temperature thermal operations, with general mixtures only approximated arbitrarily well); Supplementary Information Section S2, part F, Conjecture 1 and its accompanying caveat (the exact source of the transition-feasibility formulation used in this entry's claim, as distinct from literal channel-set equality); and the Discussion (the same open question restated in prose, as recorded by this entry's claim).</ref>
   </refs>
 
   <ask>
     A proof must show, for every finite \(d\ge1\), every non-degenerate
-    \(H_S\) on a \(d\)-dimensional \(S\), and every cooling map
+    \(H_S\) on a \(d\)-dimensional \(S\), every cooling map
     \(\mathcal C\in\mathrm{CM}(S)\) (every \(n\le d\) and every choice of
     \(\{\boldsymbol\lambda_j\}_{j=1}^d\subset\mathbb C^n\),
-    \(\{\mu_{jk}\}_{1\le j\lt k\le d}\) satisfying
-    the trace-preservation relation in def), that
-    \(\mathcal C\in\mathrm{TO}_{\mathrm{low}}(S)\): it must establish, for
-    every such \(\mathcal C\), the existence of a finite-dimensional ancilla
-    \((A,H_A)\) and a unitary \(U\) on \(S\otimes A\) commuting with
-    \(H_S\otimes\mathbb 1_A+\mathbb 1_S\otimes H_A\) such that
-    \(\mathcal C(\rho)=\operatorname{tr}_A[U(\rho\otimes\gamma_A)U^\dagger]\)
-    for every state \(\rho\) on \(S\), with \(\gamma_A=\Pi_A/g\) as in def. A
-    single construction covering every \(d\) and every admissible
-    \(\{\boldsymbol\lambda_j\},\{\mu_{jk}\}\) is required; verifying finitely many \(d\)
-    or a proper subfamily of cooling maps is not a proof of the claim as
-    quantified above.
+    \(\{\mu_{jk}\}_{1\le j\lt k\le d}\) satisfying the trace-preservation
+    relation in def), and every state \(\rho\) on \(S\), writing
+    \(\sigma:=\mathcal C(\rho)\), that \(\rho\to_{\mathrm{TO}}\sigma\): it
+    must establish, for every such \(\mathcal C\) and \(\rho\), the existence
+    of a finite-dimensional ancilla \((A,H_A)\) (which may depend on both
+    \(\mathcal C\) and \(\rho\)) and a unitary \(U\) on \(S\otimes A\)
+    commuting with \(H_S\otimes\mathbb 1_A+\mathbb 1_S\otimes H_A\) such that
+    \(\operatorname{tr}_A[U(\rho\otimes\gamma_A)U^\dagger]=\mathcal C(\rho)\),
+    with \(\gamma_A=\Pi_A/g\) as in def. A single argument covering every
+    \(d\), every admissible \(\{\boldsymbol\lambda_j\},\{\mu_{jk}\}\), and
+    every \(\rho\) is required; verifying finitely many \(d\), a proper
+    subfamily of cooling maps, or a proper subset of initial states \(\rho\)
+    is not a proof of the claim as quantified above. A construction that,
+    for a given \(\mathcal C\), additionally produces a single
+    \(\mathcal E\in\mathrm{TO}_{\mathrm{low}}(S)\) equal to \(\mathcal C\) as
+    a map on every \(\rho\) at once (i.e. that proves the strictly stronger
+    \(\mathrm{CM}(S)\subseteq\mathrm{TO}_{\mathrm{low}}(S)\), as Narasimhachar
+    and Gour's own constructions do on the restricted domains recorded in
+    known) suffices for the claim but is not required by it.
 
     A disproof must exhibit some finite \(d\ge3\), some non-degenerate
-    \(H_S\) on a \(d\)-dimensional \(S\), and some specific
-    \(\mathcal C\in\mathrm{CM}(S)\) (explicit \(n\le d\) and \(\{\boldsymbol\lambda_j\},\{\mu_{jk}\}\)),
-    and prove that no finite-dimensional ancilla \((A,H_A)\), state
-    \(\gamma_A=\Pi_A/g\), and energy-conserving unitary \(U\) reproduces
-    \(\mathcal C\) as in the proof paragraph above, ruling out every such
-    \((A,H_A,U)\) rather than a tried subclass of them. Because the claim is
-    universally quantified over \(d\) and \(H_S\), exhibiting one such
-    instance fully disproves it.
+    \(H_S\) on a \(d\)-dimensional \(S\), and some specific states
+    \(\rho,\sigma\) on \(S\) with \(\rho\to_{\mathrm{CM}}\sigma\) (an explicit
+    witnessing \(\mathcal C\in\mathrm{CM}(S)\), i.e. explicit \(n\le d\) and
+    \(\{\boldsymbol\lambda_j\},\{\mu_{jk}\}\), with \(\mathcal C(\rho)=\sigma\)),
+    and prove that \(\rho\to_{\mathrm{TO}}\sigma\) fails: that no
+    finite-dimensional ancilla \((A,H_A)\), state \(\gamma_A=\Pi_A/g\), and
+    energy-conserving unitary \(U\) satisfies
+    \(\operatorname{tr}_A[U(\rho\otimes\gamma_A)U^\dagger]=\sigma\), ruling
+    out every such \((A,H_A,U)\), i.e. every element of
+    \(\mathrm{TO}_{\mathrm{low}}(S)\) whatsoever, not merely showing that the
+    particular witnessing \(\mathcal C\) fails to be an element of
+    \(\mathrm{TO}_{\mathrm{low}}(S)\). Because the claim is universally
+    quantified over \(d\), \(H_S\), and \((\rho,\sigma)\), exhibiting one such
+    instance fully disproves it; \(d=2\) is excluded from this search because
+    the claim is already proved there (known above).
 
     The following count as progress, not as a solution to the claim, unless
     combined with a proof removing the stated restriction: (i) realizing
-    \(\mathcal C\in\mathrm{TO}_{\mathrm{low}}(S)\) only up to nonzero
-    diamond-norm or trace-norm error, or only in an asymptotic many-copy
-    sense; (ii) realizations using a catalyst system required to return
-    unchanged or correlated with \(S\) at the end of the protocol, beyond the
-    plain ancilla-and-unitary form of \(\mathrm{TO}_{\mathrm{low}}(S)\) fixed
-    in def (Narasimhachar and Gour's own listed open problem of cooling maps
+    \(\rho\to_{\mathrm{TO}}\sigma\) only up to nonzero diamond-norm or
+    trace-norm error on \(\sigma\), or only in an asymptotic many-copy sense;
+    (ii) realizations using a catalyst system required to return unchanged
+    or correlated with \(S\) at the end of the protocol, beyond the plain
+    ancilla-and-unitary form of \(\mathrm{TO}_{\mathrm{low}}(S)\) fixed in
+    def (Narasimhachar and Gour's own listed open problem of cooling maps
     aided by catalysts); (iii) results restricted to a proper subclass of
     \(\mathrm{CM}(S)\), such as the optimally coherent cooling maps and their
-    mixtures already handled by Narasimhachar and Gour, or to a proper
-    subclass of non-degenerate Hamiltonians; (iv) extending
-    \(\mathrm{TO}_{\mathrm{low}}(S)\) or \(\mathrm{CM}(S)\) to degenerate
-    \(H_S\) or to genuine finite-\(\beta\) baths, unless accompanied by a
-    proof that this extension leaves the claim exactly as fixed above
-    unchanged.
+    mixtures already handled by Narasimhachar and Gour, to a proper subclass
+    of non-degenerate Hamiltonians, or to a proper subset of the pairs
+    \((\rho,\sigma)\) rather than every pair with \(\rho\to_{\mathrm{CM}}\sigma\);
+    (iv) extending \(\mathrm{TO}_{\mathrm{low}}(S)\) or \(\mathrm{CM}(S)\) to
+    degenerate \(H_S\) or to genuine finite-\(\beta\) baths, unless
+    accompanied by a proof that this extension leaves the claim exactly as
+    fixed above unchanged.
   </ask>
 
   <out>

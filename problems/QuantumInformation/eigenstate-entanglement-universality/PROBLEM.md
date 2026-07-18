@@ -100,7 +100,7 @@
       -\sum_{\ell=1}^{V_A}
       \Big[\zeta_\ell\ln\zeta_\ell+(1-\zeta_\ell)\ln(1-\zeta_\ell)\Big],
     \]
-    with the convention \(0\ln0=0\); this is the standard reduced-entropy
+    with the convention \(0\ln0=0\); this is the reduced-entropy
     formula for a fermionic Gaussian (Slater-determinant) state, computed
     from \(A\) alone, without diagonalizing the complementary block or
     resolving energy degeneracies. Define the eigenstate average
@@ -222,7 +222,8 @@
     inside the bound \([0.1733,0.2216]\) established above, not the raw
     figure \(0.5378(1)\) itself.
 
-    The same review, Section V.A, records a parallel, logically independent
+    Bianchi, Hackl, Kieburg, Rigol, and Vidmar, PRX Quantum 3, 030201
+    (2022), Section V.A, records a parallel, logically independent
     conjecture for genuinely interacting (not quadratic) quantum-chaotic
     Hamiltonians: numerically, the eigenstate-averaged entanglement entropy
     of a particle-number-conserving hard-core-boson chain (their Eq. (136))
@@ -260,6 +261,7 @@
   <refs>
     <ref>L. Vidmar, L. Hackl, E. Bianchi, and M. Rigol, Entanglement Entropy of Eigenstates of Quadratic Fermionic Hamiltonians, Physical Review Letters 119, 020601 (2017), DOI 10.1103/PhysRevLett.119.020601, arXiv:1703.02979, used for the general translationally-invariant quadratic-Hamiltonian bound stated in the Known section and the small-subsystem-fraction maximal-entropy result.</ref>
     <ref>L. Hackl, L. Vidmar, M. Rigol, and E. Bianchi, Average eigenstate entanglement entropy of the XY chain in a transverse field and its universality for translationally invariant quadratic fermionic models, Physical Review B 99, 075123 (2019), DOI 10.1103/PhysRevB.99.075123, arXiv:1812.08757, used for the tightened (fourth-order) bounds and the numerically tested cross-model universality noted in the Known section.</ref>
+    <ref>L. Vidmar, L. Hackl, E. Bianchi, and M. Rigol, Volume Law and Quantum Criticality in the Entanglement Entropy of Excited Eigenstates of the Quantum Ising Model, Physical Review Letters 121, 220602 (2018), DOI 10.1103/PhysRevLett.121.220602, arXiv:1808.08963, used for the quantum Ising chain volume-law coefficient function cited as cross-model universality evidence in the Known section.</ref>
     <ref>E. Bianchi, L. Hackl, M. Kieburg, M. Rigol, and L. Vidmar, Volume-Law Entanglement Entropy of Typical Pure Quantum States, PRX Quantum 3, 030201 (2022), DOI 10.1103/PRXQuantum.3.030201, arXiv:2112.06959, Section V.C (translationally invariant noninteracting fermions, their Eq. (139), Fig. 16) for the open-status statement, the numerical value 0.5378(1), and the contrast with the closed-form Gaussian-state coefficient 0.5573 of their Eq. (118); Section V.A (their Eq. (136), Eq. (45)) for the parallel quantum-chaotic-interacting conjecture recorded in the Known section.</ref>
     <ref>L. Vidmar and M. Rigol, Entanglement Entropy of Eigenstates of Quantum Chaotic Hamiltonians, Physical Review Letters 119, 220603 (2017), DOI 10.1103/PhysRevLett.119.220603, arXiv:1708.08453, used only for the chaotic-model background noted in the Known section.</ref>
   </refs>
@@ -276,9 +278,10 @@
     not merely within the bound sandwich of Phys. Rev. Lett. 119, 020601
     (2017) or Phys. Rev. B 99, 075123 (2019). Matching \(g(1/2)\) to
     \(\frac{\ln2}{2}\times0.5378(1)\approx0.1864\) (the \(V\)-normalized
-    value corresponding, via the Known-section conversion, to the source's
-    \(s_T^\infty=0.5378(1)\)) to a few reported digits is evidence, not a
-    proof.
+    value corresponding, via the Known-section conversion, to
+    \(s_T^\infty=0.5378(1)\) as reported by Bianchi, Hackl, Kieburg, Rigol,
+    and Vidmar, PRX Quantum 3, 030201 (2022)) to a few reported digits is
+    evidence, not a proof.
 
     A disproof must establish, for some particular \(f_0\in(0,1)\), at
     least one of: (i) \(\underline s_T(f_0)\ne\overline s_T(f_0)\), so that
@@ -287,7 +290,7 @@
     exists but cannot be written in the closed form of the Def section, by
     a rigorous non-expressibility argument, not merely by the failure of
     one proposed candidate \(g\) to match numerics or bounds. Tightening
-    the known bound sequence, or exhibiting a \(g\) that matches only at
+    the bound sequence in the Known section, or exhibiting a \(g\) that matches only at
     isolated fillings or only asymptotically as \(f\to0\), is progress
     only. A resolution of the cross-model universality question (whether
     the same \(g\) governs other translationally invariant quadratic
