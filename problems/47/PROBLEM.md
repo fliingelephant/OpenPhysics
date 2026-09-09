@@ -178,7 +178,7 @@
     the integer count." Consequently, Shi et al.'s Eq. (6) conjecture,
     exactly as they quantified it, is a proved corollary of Sun et al.'s
     theorem and is not open. This entry's survey provenance
-    (Quantum-Thermodynamics-Open-Problems-Survey.md, "Where the two
+    (docs/Quantum-Thermodynamics-Open-Problems-Survey.md, "Where the two
     surveyor models disagree") records: "GPT says the conjecture as
     posed was resolved by the 2026 exact frontier; Opus keeps the general
     (time-dependent, approximate) case as the surviving problem." Reading
