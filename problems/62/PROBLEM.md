@@ -7,6 +7,7 @@
   <field>QTD</field>
   <name>Catalytic Universality in the Genuine Catalysis Regime of Thermal Operations</name>
   <keys>quantum catalysis thermal operations catalytic thermal operations universal catalysts catalytic universality genuine catalysis regime embezzlement regime multi-copy catalyst many-copy catalyst n-copy catalyst inexact catalysis approximate catalysis second laws of thermodynamics second laws of quantum thermodynamics generalized free energy Renyi divergence Renyi relative entropy energy-incoherent states block-diagonal states diagonal states resource theory of quantum thermodynamics resource theory of athermality majorization-based resource theories thermo-majorization Lipka-Bartosik Skrzypczyk Theorem 2 Lemma 4 gentle unitary lemma Stinespring dilation lemma proof gap invalid lemma broken proof Reviews of Modern Physics catalysis review RMP catalysis review any state catalyzes any transition all states are universal catalysts</keys>
+  <related>45 60</related>
 
   <claim>
     Fix a finite-dimensional quantum system \(S\) of dimension \(d_S\) with

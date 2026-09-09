@@ -7,6 +7,7 @@
   <field>QTD</field>
   <name>Equal-Entropy Exact Catalysis with an Infinite-Dimensional Catalyst</name>
   <keys>catalytic entropy conjecture CEC exact catalytic entropy conjecture equal entropy catalysis infinite-dimensional catalyst infinite dimensional catalyst countably infinite catalyst quantum catalysis catalytic transition catalytic transformation catalyst returned exactly trumping catalytic majorization von Neumann entropy entropy monotonicity subadditivity of entropy isospectral states unitarily equivalent states unitary equivalence spectrum matching single-shot quantum thermodynamics single-shot quantum information noisy operations resource theory of entropy Boes Eisert Gallego Muller Wilming von Neumann entropy from unitarity Wilming entropy and reversible catalysis Wilming correlations in typicality IQOQI Vienna open quantum problems OQP problem 49 catalytic entropy conjecture residue</keys>
+  <related>45 60</related>
 
   <claim>
     Fix a finite-dimensional Hilbert space \(S\) and let \(\rho_S,\rho'_S\) be

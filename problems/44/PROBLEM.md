@@ -7,6 +7,7 @@
   <field>QTD</field>
   <name>Catalysable Future Region Exactness</name>
   <keys>catalytic thermal operations strict catalysis strict catalyst uncorrelated catalyst catalyst returned exactly catalytic future thermal cone catalysable future region catalysable set thermomajorization thermo-majorization beta-order beta-ordering thermomajorization curve tangent vectors thermal tangent vectors trumping catalytic majorization second laws of quantum thermodynamics generalized free energies Renyi divergence future thermal cone past thermal cone incomparable thermal region incomparability geometric thermal cones Birkhoff theorem catalysis extreme points populations energy-incoherent states Czartowski de Oliveira Junior Grabowecky Gour entanglement catalysts dimensionality bounds quantum thermodynamics resource theory Gibbs-preserving maps</keys>
+  <related>60</related>
 
   <claim>
     Fix a positive integer \(d\), a Hamiltonian \(H=\sum_{i=1}^dE_i\Pi_i\)

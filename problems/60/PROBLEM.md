@@ -7,6 +7,7 @@
   <field>QTD</field>
   <name>Strict Catalytic Convertibility under Thermal Operations</name>
   <keys>thermal operations catalytic thermal operations strict catalysis strict catalytic thermal operations exact catalysis exact catalytic thermal operations uncorrelated catalyst catalyst returned exactly catalyst returned unperturbed quantum coherence energy coherence coherent state convertibility state conversion state interconversion generalized free energies generalized second laws of quantum thermodynamics second laws of quantum thermodynamics free coherence coherence monotone asymmetry monotone time-translation covariance time-translation symmetry Bohr frequency mode operator resource theory of quantum thermodynamics resource theory of athermality single-shot quantum thermodynamics one-shot quantum thermodynamics Renyi divergence Renyi relative entropy correlated catalysis catalytic majorization trumping relation quantum catalysis Gibbs state Brandao Horodecki Ng Oppenheim Wehner second laws Lostaglio Jennings Rudolph beyond free energy</keys>
+  <related>45</related>
 
   <claim>
     Fix a finite-dimensional quantum system \(S\) with Hamiltonian

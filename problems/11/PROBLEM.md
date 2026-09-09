@@ -7,6 +7,7 @@
   <field>QIT</field>
   <name>SIC POVMs and Zauner's Conjecture</name>
   <keys>sic sic-povm sic povm symmetric informationally complete positive operator valued measure zauner zauner conjecture weyl heisenberg weyl-heisenberg heisenberg group generalized pauli group group covariant wh sic hw sic fiducial fiducial vector clifford group clifford normalizer zauner unitary zauner subspace fixed zauner map zero displacement zauner operation order three unitary equiangular lines equiangular tight frame complex projective 2-design quantum communication quantum tomography open quantum problems oqp problem 23</keys>
+  <related>2</related>
 
   <claim>
     For every integer \(d\ge 2\), let \([F_{\mathrm Z},0]\) denote the

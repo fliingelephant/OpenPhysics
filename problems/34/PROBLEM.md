@@ -8,6 +8,7 @@
   <name>Clustering-Mixing Equivalence for Non-Commuting Quantum Gibbs Samplers</name>
 
   <keys>clustering mixing equivalence, clustering-mixing equivalence, correlation decay implies rapid mixing, rapid mixing implies clustering, weak clustering, strong clustering, conditional covariance, conditional expectation, quantum Gibbs sampler, local Gibbs sampler, Davies generator, Davies map, heat-bath generator, heat-bath Monte Carlo generator, spectral gap, system-size independent spectral gap, size-independent gap, Kastoryano-Brandao, Kastoryano Brandao commuting case, Theorem 1 Kastoryano Brandao, Theorem 23, Theorem 26, non-commuting Hamiltonian, noncommuting Hamiltonian, non-commuting potential, r-local potential, Lindbladian, Liouvillian, primitive Liouvillian, locally primitive, reversible Liouvillian, locally reversible, detailed balance, GNS detailed balance, quantum lattice Gibbs state, thermal state, thermalization, mixing time, dissipative state preparation, non-commutative Lp space, statics-dynamics equivalence, welds statics to dynamics, Outlook open question, clustering-mixing-equivalence-noncommuting</keys>
+  <related>39 43</related>
 
   <claim>
     Fix an integer \(d\ge1\). For every integer \(r\ge1\), every
