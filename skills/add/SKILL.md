@@ -1,6 +1,6 @@
 ---
 name: add
-description: Add rigorous OpenPhysics problem entries from source links or papers. Use when creating or revising `problems/<field>/<slug>/PROBLEM.md` entries such as `problems/QuantumInformation/<slug>/PROBLEM.md`, collecting open physics problems, converting source statements into XML-in-Markdown prompts, checking mathematical clarity, or running the required rigor review before accepting an entry.
+description: Add an OpenPhysics problem entry `problems/N/PROBLEM.md` from a source link, DOI, or paper, or derive a construction entry from an existing proof entry. Use when collecting open physics problems, converting source statements into the registry format, or running the review gate before accepting an entry.
 ---
 
 # Add
@@ -17,174 +17,74 @@ semantic. Do not embed long reasoning procedures in each problem; define the
 outcome, constraints, evidence, and output contract clearly, then let the model
 choose the proof or search strategy.
 
-## File
+## Arguments
 
-Create one file per problem:
+- `/add <url-or-doi>`: write a new entry from the source.
+- `/add construction-variant <N>`: write a new construction entry derived from
+  existing entry N. See below.
 
-```text
-problems/<field>/<slug>/PROBLEM.md
-```
+## Format
 
-For quantum information entries, use:
-
-```text
-problems/QuantumInformation/<slug>/PROBLEM.md
-```
-
-Do not put the problem id in the folder name. Put it in the Markdown heading and
-in the XML:
-
-````markdown
-# QI001 Name
-
-```xml
-<problem id="QI001">
-  <status>open</status>
-  <name>Name</name>
-  <keys>lowercase grep terms and common aliases</keys>
-
-  <claim>
-    ...
-  </claim>
-
-  <def>
-    ...
-  </def>
-
-  <known>
-    ...
-  </known>
-
-  <refs>
-    <ref>...</ref>
-  </refs>
-
-  <ask>
-    ...
-  </ask>
-
-  <out>
-    Return one of: proof, disproof, gap, progress.
-    State all assumptions and cite every external theorem used.
-  </out>
-</problem>
-```
-````
-
-Use LaTeX notation for mathematics. Inside XML text, avoid raw `<`, `>`, and
-`&`; use LaTeX commands such as `\lt`, `\gt`, or XML entities. Keep the tag set
-stable: `status`, `name`, `keys`, `claim`, `def`, `known`, `refs`, `ask`,
-`out`.
+The entry format is defined in `docs/DESIGN.md`. Follow it exactly;
+`openphysics-cli check` enforces it. The acceptance rules are in
+`references/checklist.md`.
 
 ## Workflow
 
 1. Read the source links or papers before writing. Prefer primary sources.
-2. Extract all nearby formulations: weak, strong, equivalent, conjectural,
+2. Check for duplicates. Run `openphysics-cli grep` on each main term and
+   alias. If an entry states the same claim, stop and report it. If a nearby
+   variant exists, plan a `<related>` link.
+3. Extract all nearby formulations: weak, strong, equivalent, conjectural,
    numerical, covariant, non-covariant, finite, asymptotic, or experimental.
-3. Choose exactly one canonical `<claim>`. If sources disagree or the intended
+4. Choose exactly one canonical `<claim>`. If sources disagree or the intended
    strength is ambiguous, ask the user before editing.
-4. Write `<def>` locally. Define every symbol and distinguish common shorthand
-   from the precise mathematical object.
-5. Write `<known>` as provenance, not motivation. Separate proved facts from
-   conjectures and stronger or weaker variants.
-6. Write `<ask>` so proof and disproof are logically correct for the chosen
-   claim. Do not use boilerplate like "give a counterexample" unless a single
-   counterexample really disproves the claim.
-7. Add grep-friendly `<keys>` with common names, aliases, abbreviations, and
-   adjacent terminology. Do not include a keyword that falsely restricts the
-   claim.
-8. Check literal scope. Avoid words such as "any", "all", "standard", "known",
-   "counterexample", "construct", and "solve" unless their mathematical scope is
-   pinned down by the claim or definitions.
-9. Check source naming. Do not write vague source phrases such as "the paper",
-   "the published paper", "the source article", or "the seed source".
-10. Run two independent read-only rigor reviews before accepting the entry when
-   the active agent policy and user authorization permit subagents. Otherwise,
-   ask for authorization before accepting, or clearly mark the entry as not yet
-   independently reviewed. Apply only semantic precision fixes, then review
-   again if the claim or definitions changed materially.
+5. Set `<kind>` by the test in `docs/DESIGN.md` and `<field>` from its table.
+6. Write `<def>`, `<known>`, `<refs>`, `<ask>`, `<keys>`, and `<related>`
+   under the rules in `references/checklist.md`.
+7. Take the id from `openphysics-cli next` and create `problems/N/PROBLEM.md`.
+8. Run `openphysics-cli check`, then go through `references/checklist.md`
+   yourself.
+9. Pass the review gate below. Apply only semantic precision fixes, then
+   review again if the claim or definitions changed materially.
+10. Run `openphysics-cli index`.
 
-## Source Rules
+## Construction variant
 
-Use full citations in `<refs>`. A `<ref>` should identify the authors, title,
-journal or venue, volume, page or article number, year, DOI or stable URL, and
-the exact problem, theorem, section, or page used.
+`/add construction-variant <N>` derives a construction entry from a proof
+entry.
 
-When referring to a source in `<known>`, `<claim>`, or `<ask>`, name the source
-explicitly. Prefer this form:
+1. Read entry N with `openphysics-cli show N`. It must have
+   `<kind>proof</kind>`.
+2. Identify the object that the claim implies or requires: an achiever of a
+   bound, a witness of an inequality, or a state, protocol, or Hamiltonian
+   whose existence the claim asserts inside its argument.
+3. Write the new `<claim>` as an existence statement for that object with its
+   properties explicit, so that a positive answer exhibits the object.
+4. Set `<kind>construction</kind>`, the same `<field>`, `<related>N</related>`,
+   and a `<known>` that states what entry N asserts and its status.
+5. Continue from step 6 of the workflow. Do not edit entry N.
 
-```xml
-Chen et al., "Five open problems in quantum information theory", PRX Quantum 3,
-010101 (2022), Problem 3, ask whether ...
-```
-
-Do not use source pronouns or narrative shortcuts such as "this work", "the
-source", "the paper", "the authors", or "the seed article" unless the sentence
-also contains the full citation anchor needed to identify the source without
-reading nearby text.
-
-## Claim Rules
-
-The `<claim>` is the source of truth.
-
-- State one mathematical assertion, not a topic.
-- Include all quantifiers and domains.
-- Make finite, infinite, asymptotic, exact, approximate, numerical, and
-  experimental meanings explicit.
-- Keep motivation and history out of `<claim>`.
-- Prefer a weaker precise claim over a stronger vague one.
-
-For an existence claim over infinitely many dimensions, disproof usually means
-showing that the set of admissible dimensions is finite. A failure in one
-dimension only disproves an all-dimensions claim.
-
-## Definition Rules
-
-Define objects at the level where proof attempts operate. Common names are not
-enough.
-
-For example, for SIC-POVMs distinguish:
-
-\[
-|\psi_j\rangle,\qquad
-\Pi_j=|\psi_j\rangle\langle\psi_j|,\qquad
-E_j=\frac{1}{N}\Pi_j .
-\]
-
-If a property such as "informationally complete" is used, state the equivalent
-linear-algebra condition when possible.
-
-## Review Gate
+## Review gate
 
 Use two independent reviewer agents when the active agent policy and user
 authorization permit subagents. Use the same effective model, reasoning,
 sandbox, approval, and tool-access settings as the main agent; do not downgrade.
 Give each reviewer only the file path, source path or DOI, and review task. Do
-not tell them the expected answer or proposed fix. Reviewer agents should use
-`skills/review/SKILL.md`.
+not tell them the expected answer or proposed fix. Reviewer agents use
+`skills/review/SKILL.md` and check every item in `references/checklist.md`.
 
-Ask reviewers to check:
-
-- exact strength of `<claim>` against sources
-- local definitions and symbol hygiene
-- stronger/weaker nearby variants
-- proof and disproof logic in `<ask>`
-- overclaims in `<known>`
-- XML well-formedness and Markdown clarity
-- grep-key quality
-- full citations and explicit source naming
-- literal-scope hazards such as "any", "standard", "known", and
-  "counterexample"; vague source phrases such as "the paper" and "the
-  published paper"
+If subagents are not permitted, ask for authorization before accepting, or
+clearly mark the entry as not yet independently reviewed.
 
 Use this reviewer prompt shape:
 
 ```xml
 <review>
   <task>Review this OpenPhysics problem entry for mathematical rigor.</task>
-  <file>problems/.../PROBLEM.md</file>
-  <source>DOI, URL, local PDF, or local TeX path</source>
-  <check>claim strength, definitions, variants, disproof logic, provenance, full citations, explicit source naming, XML parsing, grep keys, literal-scope hazards</check>
+  <file>problems/N/PROBLEM.md</file>
+  <source>DOI, URL, or arXiv id</source>
+  <check>every item in skills/add/references/checklist.md</check>
   <out>Findings first with file/line references, then concise suggested edits. Use LaTeX notation for mathematics.</out>
 </review>
 ```
