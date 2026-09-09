@@ -51,7 +51,7 @@ Mathematics is LaTeX. XML text contains no raw `<`, `>`, or `&`; use `\lt`,
 | tag | value |
 |---|---|
 | `status` | `open` or `solved` |
-| `kind` | `proof` or `construction`, see below |
+| `kind` | `construction` or `proof`, see below |
 | `field` | one of `QIT`, `QCT`, `QTD`, `QMB`, see below |
 | `name` | title, equals the heading |
 | `keys` | space-separated lowercase retrieval terms; no ids |
@@ -60,21 +60,21 @@ Mathematics is LaTeX. XML text contains no raw `<`, `>`, or `&`; use `\lt`,
 | `def` | local definitions of every symbol in `claim` |
 | `known` | proved facts, conjectures, and variants, each with its source named |
 | `refs` | one `<ref>` per source: authors, title, venue, year, DOI or arXiv id, exact location used |
-| `ask` | exact success condition, see kind |
-| `out` | allowed return values, see kind |
+| `ask` | exact proof and disproof conditions for `claim` |
+| `out` | allowed return values: `proof`, `disproof`, `gap`, `progress` |
 
 ## Kind
 
-Kind is the deliverable.
+Kind is the logical form of `<claim>`.
 
-- `proof`: the solver returns a proof of `<claim>` or of its negation. Existence
-  statements, characterizations, inequalities, sharp constants, and rates are
-  all `proof`. `<ask>` states the exact proof and disproof conditions.
-  `<out>`: `proof`, `disproof`, `gap`, `progress`.
-- `construction`: the solver returns an explicit object that a stated check
-  accepts. `<claim>` cites the existence theorem and states the explicit family
-  wanted. `<ask>` defines "explicit" and gives a finite verification procedure.
-  `<out>`: `construction`, `gap`, `progress`.
+- `construction`: `<claim>` has a slot to fill: an object with stated
+  properties, or a value, formula, criterion, or characterization to
+  determine. A solution supplies the thing and proves its properties. A
+  disproof proves that no such thing exists.
+- `proof`: `<claim>` is a closed proposition, true or false as stated:
+  universal statements, equalities, inequalities, sharp constants, and
+  properties of a known object. A witness that appears inside the argument
+  does not make it a construction.
 
 ## Field
 
