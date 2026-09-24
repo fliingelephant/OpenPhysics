@@ -1,37 +1,34 @@
 # OpenPhysics
 
-A curated, machine-readable registry of open physics problems, for agentic reasoning systems.
+A registry of open physics problems, written for AI agents.
 
-## Format
-
-Each problem is one `PROBLEM.md` file:
-
-```text
-problems/<Field>/<slug>/PROBLEM.md
-```
-
-The problem statement is XML in Markdown. The `<claim>` is the source of truth.
-
-## Standard
-
-Each entry should have:
-
-- one precise `<claim>`
-- local `<def>` definitions
-- source-faithful `<known>` results
-- complete `<refs>`
-- exact proof/disproof conditions in `<ask>`
-- reviewer checks for mathematical clarity
-
-## Layout
-
-```text
-problems/   problem entries
-refs/       source papers and notes
-skills/     agent workflows
-```
+Each problem is one file, `problems/N/PROBLEM.md`, with an XML body inside
+Markdown. The `<claim>` is the statement to prove or disprove. The format
+is specified in [docs/DESIGN.md](docs/DESIGN.md). The index of all entries
+is [problems/README.md](problems/README.md).
 
 ## Use
 
-Agents should solve only the stated `<claim>` and return one of `proof`,
-`disproof`, `gap`, or `progress`.
+An agent takes one entry, solves only its `<claim>`, and returns one of
+`proof`, `disproof`, `gap`, or `progress`, as `<ask>` and `<out>` define.
+
+## Tool
+
+`openphysics-cli` lists, shows, searches, and validates entries.
+
+```sh
+cargo build --release --manifest-path tools/openphysics-cli/Cargo.toml
+tools/openphysics-cli/target/release/openphysics-cli list --field QTD
+tools/openphysics-cli/target/release/openphysics-cli show 50 claim
+tools/openphysics-cli/target/release/openphysics-cli check
+```
+
+## Contribute
+
+Use the `add` skill to write an entry and the `review` skill to check it.
+Ids are integers, minted at merge, never reused. Run `check` before a pull
+request.
+
+## License
+
+MIT.

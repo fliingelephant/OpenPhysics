@@ -1,0 +1,10 @@
+[package]
+name = "openphysics-cli"
+version = "0.1.0"
+edition = "2021"
+description = "Query and validate the OpenPhysics problem registry"
+license = "MIT"
+
+[dependencies]
+clap = { version = "4", features = ["derive"] }
+roxmltree = "0.20"
