@@ -4,7 +4,7 @@
 <problem id="36">
   <status>open</status>
   <kind>proof</kind>
-  <field>QIT</field>
+  <field>QMB</field>
   <name>Floquet Heating-Time Bound for the Driven Bose-Hubbard Chain</name>
   <keys>floquet heating, floquet prethermalization, periodically driven bose-hubbard model, lattice bosons, unbounded local hilbert space, unbounded local hamiltonian, quasi-conserved effective hamiltonian, heating time, energy absorption rate, exponentially slow heating, high-frequency driving, abanin de roeck ho huveneers, effective hamiltonians prethermalization slow energy absorption, floquet-magnus expansion, renormalization of time-dependent hamiltonian, local norm, k-local hamiltonian, occupation-number truncation, hard-wall truncation, fast arnold diffusion, statistical floquet prethermalization, rubio-abadal, dalla torre dentelski, chirikov vecheslavov, tightness of heating-time bound, matching lower bound on heating rate, quantum kicked rotor, superfluid to mott insulator</keys>
 

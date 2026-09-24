@@ -77,5 +77,5 @@ enforces it.
 ## Markdown and XML
 
 - `openphysics-cli check` passes: heading, id, tag order, enum values, one
-  root, text-only tags, no raw `<`, `>`, or `&`.
+  root, text-only tags, no raw `<` or `&`.
 - Mathematics is LaTeX.

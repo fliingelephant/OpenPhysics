@@ -234,8 +234,9 @@ pub fn parse(path: &Path) -> Result<Problem, Issue> {
     Ok(Problem { path: path.to_path_buf(), id, status, kind, field, name, keys, related, claim, def, known, refs, ask, out })
 }
 
-/// Load every entry under `problems/`, sorted by id, with all issues found.
-pub fn load(problems: &Path) -> (Vec<Problem>, Vec<Issue>) {
+/// Load every entry under `problems/`, sorted by id, with all issues found and
+/// the next free id: one past the largest directory id, parsed or not.
+pub fn load(problems: &Path) -> (Vec<Problem>, Vec<Issue>, u32) {
     let mut entries = Vec::new();
     let mut issues = Vec::new();
     let mut ids = Vec::new();
@@ -267,5 +268,5 @@ pub fn load(problems: &Path) -> (Vec<Problem>, Vec<Issue>) {
             }
         }
     }
-    (entries, issues)
+    (entries, issues, ids.last().map_or(1, |id| id + 1))
 }

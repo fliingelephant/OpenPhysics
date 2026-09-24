@@ -65,7 +65,7 @@ scope. Do not tell the reviewer the expected answer or proposed fix.
 9. Check `<ask>` for logical polarity. A requested proof must prove the exact
    `<claim>`; a requested disproof must negate that exact claim.
 10. Check XML-in-Markdown validity: one root `<problem>`, stable tags, valid
-    nesting, no raw `<`, `>`, or `&` in text unless they are tags or entities.
+    nesting, no raw `<` or `&` in text unless they are tags or entities.
 11. Go through every remaining item in `skills/add/references/checklist.md`.
 12. Return findings ordered by severity. Include uncertainties instead of
     suppressing them.

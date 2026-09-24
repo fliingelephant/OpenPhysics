@@ -43,8 +43,8 @@ File shape:
 The heading id and name equal `<problem id>` and `<name>`. Tags appear in this
 order. `<related>` is optional; every other tag is required.
 
-Mathematics is LaTeX. XML text contains no raw `<`, `>`, or `&`; use `\lt`,
-`\gt`, or entities.
+Mathematics is LaTeX. XML text contains no raw `<` or `&`; use `\lt` or
+entities.
 
 ## Tags
 

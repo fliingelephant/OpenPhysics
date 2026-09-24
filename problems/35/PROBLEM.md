@@ -4,7 +4,7 @@
 <problem id="35">
   <status>open</status>
   <kind>construction</kind>
-  <field>QIT</field>
+  <field>QMB</field>
   <name>Average Eigenstate Entanglement Entropy of the Free-Fermion Ring</name>
   <keys>eigenstate entanglement entropy average entanglement entropy of eigenstates free fermion chain quadratic fermionic hamiltonian tight-binding ring XX chain translationally invariant free fermions volume-law entanglement volume-law coefficient subsystem fraction page curve page value typical pure gaussian states fermionic gaussian states universal entanglement curve eigenstate thermalization hypothesis ETH quantum chaos diagnostic integrability diagnostic highly excited eigenstates closed form exact analytical form vidmar rigol hackl bianchi kieburg reduced correlation matrix slater determinant entanglement bipartite entanglement entropy</keys>
 
